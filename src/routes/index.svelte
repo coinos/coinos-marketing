@@ -1,2 +1,6 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="flex header text-white w-full bg-black h-24">
+	<img src="/static/coinos.svg" alt="coinos" class="my-auto ml-4" />
+	<a href="/products">Products</a>
+	<a href="/products">Blog</a>
+	<a href="/products">About Us</a>
+</div>
