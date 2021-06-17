@@ -1,11 +1,12 @@
-<div class="flex header bg-secondary h-24 justify-center border-b-4 border-primary text-white">
+<div class="flex header bg-secondary h-24 justify-center border-b-4 border-primary text-white p-4">
 	<div class="flex my-auto w-full">
-    <a href="/"><img src="/static/coinos.svg" alt="coinos" /></a>
-    <div class="flex sm:mt-2">
-    <a href="/products">Products</a>
-    <a href="/faq">FAQ</a>
-    <a href="/about">About</a>
-  </div>
+		<a href="/"><img src="/static/coinos.svg" alt="coinos" /></a>
+		<div class="flex sm:mt-2">
+			<a href="/products">Products</a>
+			<a href="/faq">FAQ</a>
+			<a href="/about">About</a>
+		</div>
+    <button class="ml-auto rounded-xl bg-primary text-black py-2 px-6 text-lg">Log in</button>
 	</div>
 </div>
 
@@ -33,7 +34,7 @@
 			<h4 class="font-bold mb-4">Help</h4>
 			<ul class="list-none">
 				<li class="mb-2"><a href="https://t.me/coinos">Support</a></li>
-        <li class="mb-2"><a href="/faq">FAQ</a></li>
+				<li class="mb-2"><a href="/faq">FAQ</a></li>
 				<li class="mb-2"><a href="/privacy">Privacy Policy</a></li>
 				<li class="mb-2"><a href="/terms">Terms of Service</a></li>
 			</ul>
@@ -54,7 +55,7 @@
 		@apply block mx-4;
 	}
 
-  .card {
-    @apply rounded;
-  } 
+	.card {
+		@apply rounded;
+	}
 </style>

@@ -1,3 +1,7 @@
+<script>
+	import Cash from '../icons/cash.svelte';
+</script>
+
 <div class="flex">
 	<div class="text-white bg-black w-full flex flex-wrap lg:flex-nowrap">
 		<div class="xl:ml-72 py-24 w-2/3 flex-grow px-12">
@@ -7,10 +11,13 @@
 			<div class="text-2xl text-gray-200">
 				<p>
 					<b>Liquid and Lightning web wallet.</b>
-					The original bitcoin point-of-sale and white label NFT marketplace provider for businesses & brands.
+					The original bitcoin point-of-sale and white label NFT marketplace provider for businesses
+					& brands.
 				</p>
 
-        <button class="rounded-xl w-72 lg:w-full mt-14 bg-primary text-black p-4 text-xl">Get started</button>
+				<button class="rounded-xl w-72 lg:w-full mt-14 bg-primary text-black p-4 text-xl"
+					>Get started</button
+				>
 			</div>
 		</div>
 		<img
@@ -23,9 +30,12 @@
 
 <div class="flex text-white">
 	<div class="w-1/3 border rounded-lg my-20 mx-8 h-96 bg-secondary">
-		<div class="p-8">
-			<b class="text-2xl">Web wallet</b>
-			<p>The best</p>
+		<div class="p-8 flex">
+			<Cash />
+			<div class="ml-2">
+				<b class="text-2xl">Web wallet</b>
+				<p>The best</p>
+			</div>
 		</div>
 	</div>
 	<div class="w-1/3 border rounded-lg my-20 mx-8 h-96 bg-secondary">
