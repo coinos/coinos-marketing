@@ -82,35 +82,12 @@
 		margin-bottom: 80px;
 	}
 
-	.contact {
-		height: 180px;
-		width: 700px;
-		padding: 30px;
-		margin-left: 50px;
-	}
-	.contact p {
-		margin-bottom: 30px;
-		font-size: 22px;
-		border-radius: 10px;
-	}
-	.contact h5 {
-		margin-bottom: 10px;
-	}
-
-	.contact a {
-		color: #3ba5ac;
-	}
-
 	@media only screen and (max-width: 1023px) {
 		h3 {
 			font-weight: bold;
 		}
 		.faq-content {
 			flex-wrap: wrap;
-		}
-		.contact {
-			width: 100%;
-			margin: 30px 0;
 		}
 	}
 </style>
