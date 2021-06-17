@@ -6,7 +6,12 @@
 			<a href="/faq">FAQ</a>
 			<a href="/about">About</a>
 		</div>
-    <button class="ml-auto rounded-xl bg-primary text-black py-2 px-6 text-lg">Log in</button>
+		<div class="ml-auto">
+			<a
+				href="https://coinos.io/"
+				class="rounded-xl bg-primary text-black py-2 px-6 text-lg">Log in</a
+			>
+		</div>
 	</div>
 </div>
 
