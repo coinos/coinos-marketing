@@ -16,6 +16,9 @@
 					<b class="text-2xl">Web wallet</b>
 
 					<ul class="list-disc">
+					    <li>
+					    No need to download a privacy invasive app or trust any American app store -- login and use us from any internet enabled device. 
+					    </li>
 						<li>
 							We uniquely offer custodial and non-custodial options. This means it’s easy for anyone, including
 							newbies and nocoiners, while advanced users don’t have to trust us with their keys.
@@ -25,7 +28,7 @@
 						</li>
 						<li class="bg-gray-800 p-2">
 							We seamlessly have integrated Bitcoin with Lightning Network and Liquid Network to
-							satisfy all of your bitcoin related p2p needs
+							satisfy all of your bitcoin related p2p needs. Lightning intergration means we've got miminal energy usage concerns, and we're faster (less tha a second!) and cheaper than the competition. Liquid means we've added confidentialiy and you can manage bitcoin based assets, smart contracts and/or NFTs.
 						</li>
 					</ul>
 				</Card>

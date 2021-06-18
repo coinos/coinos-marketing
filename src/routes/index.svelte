@@ -14,7 +14,7 @@
 			</p>
 			<div class="text-2xl text-gray-200">
 				<p class="mb-4">
-					<b>Bitcoin, Liquid, and Lightning web wallet.</b><br />
+					<b>Your Bitcoin, Liquid, and Lightning web wallet.</b><br />
 
 					The original bitcoin point-of-sale and white label NFT marketplace provider for businesses &amp; brands.
 				</p>
@@ -42,7 +42,7 @@
 
 		<ul class="list-disc">
 			<li>
-				No need to download a privacy invasive app or trust any American app store -- <b><a href="https://coinos.io"> login </a></b> and use from any internet enabled device
+				No need to download a privacy invasive app or trust any American app store -- <b><a href="https://coinos.io"> login </a></b> and use us from any internet enabled device
 			</li>
 			<li>
 				Both custodial and non-custodial options 
