@@ -48,7 +48,7 @@
 
 		<div class="flex grid grid-cols-2 gap-4">
       <div class="p-8">
-				<img src="/static/kris.jpg" class="mb-4 w-full" />
+				<img src="/static/kris.jpg" class="mb-4 w-full" alt="Kris Constable" />
 				<h4 class="text-2xl">Kris Constable</h4>
 				<h4 class="text-lg mb-8">Chief Executive Officer</h4>
 				<ul>
@@ -61,7 +61,7 @@
 				</ul>
 			</div>
 			<div class="p-8">
-				<img src="/static/adam.jpg" class="mb-4 w-full" />
+				<img src="/static/adam.jpg" class="mb-4 w-full" alt="Adam Soltys" />
 				<h4 class="text-2xl">Adam Soltys</h4>
 				<h4 class="text-lg mb-8">Chief Technical Officer</h4>
 				<ul>
