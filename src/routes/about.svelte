@@ -2,7 +2,10 @@
 	<div class="mx-auto">
 		<h1 class="mb-10">About</h1>
 		<div class="flex">
-			<div class="xl:max-w-xl w-full">
+			<div class="xl:max-w-xl">
+				<hr />
+				<h2>Company history</h2>
+				<hr />
 				<p>
 					Coinos is an open source bitcoin web wallet. Anyone can
 					<a href="https://github.com/asoltys/coinos">download the code that runs it</a>
@@ -38,6 +41,40 @@
 			</div>
 		</div>
 	</div>
+	<div>
+		<hr />
+		<h2>Our team</h2>
+		<hr />
+
+		<div class="flex grid grid-cols-2 gap-4">
+      <div class="p-8">
+				<img src="/static/kris.jpg" class="mb-4 w-full" />
+				<h4 class="text-2xl">Kris Constable</h4>
+				<h4 class="text-lg mb-8">Chief Executive Officer</h4>
+				<ul>
+					<li>Professionally involved in bitcoin/blockchain first in Jan 2014</li>
+					<li>Global Security Expert for Canada's biggest company</li>
+					<li>International Trainer on Privacy</li>
+					<li>Investigator & Advisor to privacy regulator since 2005</li>
+					<li>Founder of IDVPN.ca, unique privacy centric KYC/AML/CTF compliance platform</li>
+					<li>Over 15 years founding companies, advising companies, and leading teams</li>
+				</ul>
+			</div>
+			<div class="p-8">
+				<img src="/static/adam.jpg" class="mb-4 w-full" />
+				<h4 class="text-2xl">Adam Soltys</h4>
+				<h4 class="text-lg mb-8">Chief Technical Officer</h4>
+				<ul>
+					<li>Running Bitcoin since 2011</li>
+          <li>20+ years web development experience in government and industry</li>
+          <li>Former front-end developer at althea.net</li>
+          <li>Co-founder of The Bitcoin Co-op and Decentral Vancouver</li>
+          <li>Yogi, permaculturist, anarchist, decentralist</li>
+          <li>Husband, father, brother, son</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 </div>
 
 <style>
@@ -57,5 +94,8 @@
 	}
 	h3 {
 		@apply text-xl;
+	}
+	li {
+		@apply mb-2;
 	}
 </style>
