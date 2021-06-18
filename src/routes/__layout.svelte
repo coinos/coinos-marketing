@@ -3,13 +3,13 @@
 		<a href="/"><img src="/static/coinos.svg" alt="coinos" /></a>
 		<div class="flex sm:mt-2">
 			<a href="/products">Products</a>
-			<a href="/faq">FAQ</a>
 			<a href="/about">About</a>
+			<a href="/faq">FAQ</a>
 		</div>
 		<div class="ml-auto">
 			<a
 				href="https://coinos.io/"
-				class="rounded-xl bg-primary text-black py-2 px-6 text-lg">Log in</a
+				class="rounded-xl bg-primary text-black py-2 px-6 md:text-lg whitespace-nowrap">Log in</a
 			>
 		</div>
 	</div>
@@ -40,8 +40,6 @@
 			<ul class="list-none">
 				<li class="mb-2"><a href="https://t.me/coinos">Support</a></li>
 				<li class="mb-2"><a href="/faq">FAQ</a></li>
-				<li class="mb-2"><a href="/privacy">Privacy Policy</a></li>
-				<li class="mb-2"><a href="/terms">Terms of Service</a></li>
 			</ul>
 		</div>
 	</div>

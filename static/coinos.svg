@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,7 +12,7 @@
    viewBox="0 0 32.835205 8.1907139"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.5 (0.92.5+68)"
+   inkscape:version="1.0.1 (1.0.1+r75)"
    sodipodi:docname="coinos.svg">
   <defs
      id="defs2" />
@@ -25,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="-291.12821"
-     inkscape:cy="-37.899036"
+     inkscape:zoom="7.919596"
+     inkscape:cx="86.827626"
+     inkscape:cy="55.236015"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,7 +33,8 @@
      inkscape:window-height="1025"
      inkscape:window-x="0"
      inkscape:window-y="27"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -55,7 +54,7 @@
      transform="translate(-78.447034,-143.06034)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#faf601;fill-opacity:1;stroke:none;stroke-width:0.264583;"
        x="77.863091"
        y="151.1012"
        id="text817"
@@ -65,10 +64,10 @@
          id="tspan815"
          x="77.863091"
          y="151.1012"
-         style="stroke-width:0.26458332"><tspan
-           style="fill:#ffffff;fill-opacity:1"
+         style="stroke-width:0.264583;fill:#faf601;fill-opacity:1;"><tspan
+           style="fill:#faf601;fill-opacity:1;"
            id="tspan821">coin</tspan><tspan
-           style="fill:#ffeb3b;fill-opacity:1"
+           style="fill:#faf601;fill-opacity:1;"
            id="tspan819">os</tspan></tspan></text>
   </g>
 </svg>

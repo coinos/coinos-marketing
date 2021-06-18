@@ -22,5 +22,8 @@
     "svelte-preprocess": "^4.7.3",
     "tailwindcss": "^2.1.4"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "wretch": "^1.7.4"
+  }
 }
