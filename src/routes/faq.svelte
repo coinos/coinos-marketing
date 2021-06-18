@@ -5,7 +5,11 @@
 			<hr />
 			<h2>Bitcoin Basics</h2>
 			<hr />
-			<img src="/static/contact.jpg" class="mb-4 xl:hidden xl:h-72 xl:mb-72 mx-auto" />
+			<img
+				src="/static/contact.jpg"
+				class="mb-4 xl:hidden xl:h-72 xl:mb-72 mx-auto"
+				alt="A backpacker and lumberjack enjoy some poutine"
+			/>
 			<h3>What’s a sat or a satoshi?</h3>
 
 			<p>
@@ -44,7 +48,11 @@
 			<hr />
 			<h2>Business Owners</h2>
 			<hr />
-			<img src="/static/faq.jpeg" class="mb-4 xl:hidden xl:h-72 xl:mb-72 mx-auto" />
+			<img
+				src="/static/faq.jpeg"
+				class="mb-4 xl:hidden xl:h-72 xl:mb-72 mx-auto"
+				alt="A man and woman in a board room"
+			/>
 			<p>How do I convert my sales to fiat (CAD)?</p>
 
 			<p>
