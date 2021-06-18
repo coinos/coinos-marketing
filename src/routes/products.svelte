@@ -18,7 +18,7 @@
 					<ul class="list-disc">
 						<li>
 							We uniquely offer custodial and non-custodial options. This means it’s easy for
-							newbies, and advanced used don’t have to trust us with their keys
+							newbies and nocoiners, while advanced users don’t have to trust us with their keys
 						</li>
 						<li>
 							You can use us completely anonymously -- with no login/account, as well as using the
@@ -104,8 +104,7 @@
 </div>
 
 <style>
-	h1
-	{
+	h1 {
 		@apply mb-4 text-4xl;
 	}
 
