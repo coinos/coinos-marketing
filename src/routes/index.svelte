@@ -14,9 +14,9 @@
 			</p>
 			<div class="text-2xl text-gray-200">
 				<p class="mb-4">
-					<b>Liquid and Lightning web wallet.</b>
-					The original bitcoin point-of-sale and white label NFT marketplace provider for businesses
-					&amp; brands.
+					<b>Bitcoin, Liquid, and Lightning web wallet.</b><br />
+
+					The original bitcoin point-of-sale and white label NFT marketplace provider for businesses &amp; brands.
 				</p>
 
 				<a
@@ -38,21 +38,23 @@
 	<Card>
 		<span slot="icon"><Cash /></span>
 
-		<b class="text-2xl">Web wallet</b>
+		<b class="text-2xl">Our unique Web wallet features</b>
 
 		<ul class="list-disc">
 			<li>
-				We uniquely offer custodial and non-custodial options. This means it’s easy for newbies and
-				nocoiners, while advanced users don’t have to trust us with their keys
+				No need to download a privacy invasive app or trust any American app store -- <b><a href="https://coinos.io"> login </a></b> and use from any internet enabled device
 			</li>
 			<li>
-				You can use us completely anonymously -- with no login/account, as well as using the tor
-				network if you’re so inclined.
+				Both custodial and non-custodial options 
 			</li>
-			<li class="bg-gray-800 p-2">
-				We seamlessly have integrated Bitcoin with Lightning Network and Liquid Network to satisfy
-				all of your bitcoin related p2p needs
+		    <li class="bg-gray-800 p-2">
+				Lightning Network and Liquid Network fully integrated
 			</li>
+			<li>
+				You can use us completely anonymously, with a registered account, or fully financial crime regulations compliant
+			</li>
+		
+			
 		</ul>
 	</Card>
 	<Card>
@@ -61,10 +63,9 @@
 		<b class="text-2xl">Exchange</b>
 
 		<ul class="list-disc">
-			<li>Buy bitcoin safely in Canada using email money transfer</li>
+			<li>Buy bitcoin safely in Canada using email money transfer, Interac &reg; e-Transfer or Wire transfer</li>
 			<li class="bg-gray-800 p-2">
-				We’re fully open source. With a history of dodgy exchanges we’ve used ourselves in the past,
-				we’ve built ours so you don’t have to trust us, you can review the code yourself.
+				We’re fully open source. You don't have to trust us, you can review the code yourself.
 			</li>
 			<li>
 				We’re registered with FINTRAC as an MSB dealing in virtual currencies, the strongest

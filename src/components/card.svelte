@@ -15,9 +15,10 @@
 		class="mt-auto text-center block rounded-xl w-72 mt-14 text-primary p-4 text-lg"
 		href="/products"
 	>
-		<div class="flex">
+<!--		<div class="flex">
 			<div class="mr-2">Learn more</div>
 			<Right />
 		</div>
+-->
 	</a>
 </div>

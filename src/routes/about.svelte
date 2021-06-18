@@ -28,7 +28,7 @@
 				</p>
 
 				<p>
-					We don't charge any fees. Transfers between users on the same server are automatically
+					Transfers between users on the same server are automatically
 					done off-chain and are completely free and unlimited.
 				</p>
 
@@ -54,10 +54,10 @@
 				<ul>
 					<li>Professionally involved in bitcoin/blockchain first in Jan 2014</li>
 					<li>Global Security Expert for Canada's biggest company</li>
-					<li>International Trainer on Privacy</li>
-					<li>Investigator & Advisor to privacy regulator since 2005</li>
+					<li>International Trainer on Privacy; Investigator & Advisor to privacy regulator since 2005</li>
 					<li>Founder of IDVPN.ca, unique privacy centric KYC/AML/CTF compliance platform</li>
 					<li>Over 15 years founding companies, advising companies, and leading teams</li>
+					<li>Volunteer, humanitarian, iconoclast, perpetually curious </li>
 				</ul>
 			</div>
 			<div class="p-8">

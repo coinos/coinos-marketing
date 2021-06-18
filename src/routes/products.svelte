@@ -17,12 +17,11 @@
 
 					<ul class="list-disc">
 						<li>
-							We uniquely offer custodial and non-custodial options. This means it’s easy for
-							newbies and nocoiners, while advanced users don’t have to trust us with their keys
+							We uniquely offer custodial and non-custodial options. This means it’s easy for anyone, including
+							newbies and nocoiners, while advanced users don’t have to trust us with their keys.
 						</li>
 						<li>
-							You can use us completely anonymously -- with no login/account, as well as using the
-							tor network if you’re so inclined.
+							You can use us completely anonymously, with a registered account, or fully financial crime regulations compliant, depending on your needs. 
 						</li>
 						<li class="bg-gray-800 p-2">
 							We seamlessly have integrated Bitcoin with Lightning Network and Liquid Network to

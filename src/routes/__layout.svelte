@@ -32,7 +32,6 @@
 			<ul class="list-none">
 				<li class="mb-2"><a href="https://twitter.com/coinoswallet">Twitter</a></li>
 				<li class="mb-2"><a href="https://t.me/coinos">Telegram</a></li>
-				<li class="mb-2"><a href="https://coinos.io/blog">Blog</a></li>
 			</ul>
 		</div>
 		<div class="w-full lg:w-1/4 mb-10">
