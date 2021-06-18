@@ -81,7 +81,6 @@
 	p,
 	h1,
 	h2,
-	h3,
 	hr {
 		@apply mb-4;
 	}
@@ -91,9 +90,6 @@
 	}
 	h2 {
 		@apply text-2xl;
-	}
-	h3 {
-		@apply text-xl;
 	}
 	li {
 		@apply mb-2;

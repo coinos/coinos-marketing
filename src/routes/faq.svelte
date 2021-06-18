@@ -73,8 +73,12 @@
 			</p>
 		</div>
 		<div class="hidden xl:block w-full">
-			<img src="/static/contact.jpg" class="h-72 mb-72 mx-auto" />
-			<img src="/static/faq.jpeg" class="h-72 mx-auto" />
+			<img
+				src="/static/contact.jpg"
+				class="h-72 mb-72 mx-auto"
+				alt="A backpacker and lumberjack enjoy some poutine"
+			/>
+			<img src="/static/faq.jpeg" class="h-72 mx-auto" alt="A man and woman in a board room" />
 		</div>
 	</div>
 </div>
@@ -83,7 +87,6 @@
 	p,
 	h1,
 	h2,
-	h3,
 	hr {
 		@apply mb-4;
 	}
@@ -93,8 +96,5 @@
 	}
 	h2 {
 		@apply text-2xl;
-	}
-	h3 {
-		@apply text-xl;
 	}
 </style>
