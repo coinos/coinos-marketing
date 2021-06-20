@@ -24,7 +24,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="7.919596"
-     inkscape:cx="86.827626"
+     inkscape:cx="81.888168"
      inkscape:cy="55.236015"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -43,7 +43,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -54,7 +54,7 @@
      transform="translate(-78.447034,-143.06034)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#faf601;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="77.863091"
        y="151.1012"
        id="text817"
@@ -64,10 +64,10 @@
          id="tspan815"
          x="77.863091"
          y="151.1012"
-         style="stroke-width:0.264583;fill:#faf601;fill-opacity:1;"><tspan
-           style="fill:#faf601;fill-opacity:1;"
+         style="stroke-width:0.264583"><tspan
+           style="fill:#ffffff;fill-opacity:1"
            id="tspan821">coin</tspan><tspan
-           style="fill:#faf601;fill-opacity:1;"
+           style="fill:#faf601;fill-opacity:1"
            id="tspan819">os</tspan></tspan></text>
   </g>
 </svg>

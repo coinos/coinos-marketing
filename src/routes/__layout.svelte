@@ -2,9 +2,10 @@
 	<div class="flex my-auto w-full">
 		<a href="/"><img src="/static/coinos.svg" alt="coinos" /></a>
 		<div class="flex sm:mt-2">
-			<a href="/products">Products</a>
 			<a href="/about">About</a>
+      <!--
 			<a href="/faq">FAQ</a>
+      -->
 		</div>
 		<div class="ml-auto">
 			<a

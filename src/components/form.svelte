@@ -31,7 +31,7 @@
 				>
 					First Name
 				</label>
-				<input id="grid-first-name" type="text" placeholder="Jane" bind:value={first} />
+				<input id="grid-first-name" type="text" bind:value={first} />
 			</div>
 			<div class="w-full md:w-1/2 px-3">
 				<label
@@ -40,7 +40,7 @@
 				>
 					Last Name
 				</label>
-				<input id="grid-last-name" type="text" placeholder="Doe" bind:value={last} />
+				<input id="grid-last-name" type="text" bind:value={last} />
 			</div>
 		</div>
 		<div class="flex flex-wrap -mx-3 mb-6">

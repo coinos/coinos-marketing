@@ -16,7 +16,8 @@
 				<p class="mb-4">
 					<b>Your Bitcoin, Liquid, and Lightning web wallet.</b><br />
 
-					The original bitcoin point-of-sale and white label NFT marketplace provider for businesses &amp; brands.
+					The original bitcoin point-of-sale and white label NFT marketplace provider for businesses
+					&amp; brands.
 				</p>
 
 				<a
@@ -34,84 +35,56 @@
 	</div>
 </div>
 
-<div class="flex flex-wrap text-white my-20 lg:grid xl:gap-4 xl:grid-cols-2">
+<div class="w-full container mx-auto px-12 mt-10 flex xl:grid xl:gap-4 xl:grid-cols-3">
 	<Card>
-		<span slot="icon"><Cash /></span>
+		<Cash slot="icon" />
+		<b slot="title">Web wallet</b>
 
-		<b class="text-2xl">Our unique Web wallet features</b>
-
-		<ul class="list-disc">
+		<ul>
 			<li>
-				No need to download a privacy invasive app or trust any American app store -- <b><a href="https://coinos.io"> login </a></b> and use us from any internet enabled device
-			</li>
-			<li>
-				Both custodial and non-custodial options 
-			</li>
-		    <li class="bg-gray-800 p-2">
-				Lightning Network and Liquid Network fully integrated
+				No need to download a privacy invasive app or trust any American app store. Login and use us
+				from any internet enabled device.
 			</li>
 			<li>
-				You can use us completely anonymously, with a registered account, or fully financial crime regulations compliant
+				We uniquely offer custodial and non-custodial options making it easy for newbies to get
+				started while advanced users don’t have to trust us with their keys.
 			</li>
-		
-			
+			<li>
+				We seamlessly integrate Bitcoin and layer-2 networks Lightning and Liquid. Lightning makes
+				us faster (less than a second!) and cheaper than the competition and Liquid means we've
+				added confidentiality and the ability to manage assets and NFTs.
+			</li>
 		</ul>
 	</Card>
 	<Card>
-		<span slot="icon"><Cash /></span>
-
-		<b class="text-2xl">Exchange</b>
-
-		<ul class="list-disc">
-			<li>Buy bitcoin safely in Canada using email money transfer, Interac &reg; e-Transfer or Wire transfer</li>
-			<li class="bg-gray-800 p-2">
-				We’re fully open source. You don't have to trust us, you can review the code yourself.
-			</li>
-			<li>
-				We’re registered with FINTRAC as an MSB dealing in virtual currencies, the strongest
-				financial crime reporting in Canada
-			</li>
-			<li>
-				Once your ID has been verified (government requirement), you can transfer CAD in and out of
-				Bitcoin as fast as the fiat / traditional banking system will allow
-			</li>
-			<li>We instantly convert your CAD to satoshis (bitcoin), no extra work on your part</li>
-		</ul>
-	</Card>
-	<Card>
-		<span slot="icon"><Computer /></span>
-		<b class="text-2xl">Point of sale</b>
-		<ul class="list-disc">
+		<Computer slot="icon" />
+		<b slot="title">Point of sale</b>
+		<ul>
 			<li>Your business can be accepting bitcoin in less than 15 seconds after reading this</li>
 			<li>
-				You can be selling products with invoice and QR code in less than one minute after reading
-				this
-			</li>
-			<li class="bg-gray-800 p-2">
-				We’ve been using Bitcoin since 2014, with layer 2 Lightning Network added in 2019, making us
-				faster, more cost effective, and removing the energy usage concerns with proof of work as
-				the industry resolves these things internally
+				You can keep payments in BTC and risk the volatility or have all sales converted to your
+				national currency.
 			</li>
 			<li>
-				You can keep payments in BTC and risk the volatility, or have all sales get pegged to the
-				Canadian or US dollar at sale time
+				Instant settlement and transaction finality. Your funds belong to you and can be withdrawn
+				as soon as a payment lands in your account.
 			</li>
 		</ul>
 	</Card>
 	<Card>
-		<span slot="icon"><Ticket /></span>
-		<b class="text-2xl mb-2">NFT Marketplace</b>
-		<ul class="list-disc">
+		<Ticket slot="icon" />
+		<b slot="title">NFT Marketplace</b>
+		<ul>
 			<li>
-				Under 5 cents to mint art/assets, compared to over $50 USD per item in most market places
+				Under 3 cents to mint tokens for art and other assets, compared to over $50 USD per item in
+				other popular market places
 			</li>
-			<li class="bg-gray-800 p-2">
+			<li>
 				Your company branding and logos on the website, along with your ideal look, feel, and
 				experience
 			</li>
-			<li>We can handle digital assets as well as bridge physical assets</li>
 			<li>
-				Bitcoin/Liquid Network based, not ethereum or other altcoins that are slow, expensive, or
+				Bitcoin/Liquid Network based, not Ethereum or other altcoins that are slow, expensive, or
 				may disappear
 			</li>
 			<li>
@@ -142,7 +115,7 @@
 		border-radius: 0 0 0 300px;
 	}
 
-	.list-disc li {
-		@apply my-2 px-2;
+	li {
+		@apply my-4;
 	}
 </style>
