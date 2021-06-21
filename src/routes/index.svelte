@@ -35,7 +35,7 @@
 	</div>
 </div>
 
-<div class="w-full container mx-auto px-12 mt-10 flex xl:grid xl:gap-4 xl:grid-cols-3">
+<div class="w-full container mx-auto px-12 mt-10 flex flex-wrap xl:grid xl:gap-4 xl:grid-cols-3">
 	<Card>
 		<Cash slot="icon" />
 		<b slot="title">Web wallet</b>
