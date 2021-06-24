@@ -17,18 +17,18 @@
 
 					<ul class="list-disc">
 					    <li>
-					    No need to download a privacy invasive app or trust any American app store -- login and use us from any internet enabled device. 
+					    No need to download a privacy invasive app or trust any American app store -- login and use us from any internet enabled device
 					    </li>
 						<li>
 							We uniquely offer custodial and non-custodial options. This means it’s easy for anyone, including
-							newbies and nocoiners, while advanced users don’t have to trust us with their keys.
+							newbies and nocoiners, while advanced users don’t have to trust us with their keys
 						</li>
 						<li>
-							You can use us completely anonymously, with a registered account, or fully financial crime regulations compliant, depending on your needs. 
+							You can use us completely anonymously, with a registered account, or fully financial crime regulations compliant, depending on your needs
 						</li>
 						<li class="bg-gray-800 p-2">
 							We seamlessly have integrated Bitcoin with Lightning Network and Liquid Network to
-							satisfy all of your bitcoin related p2p needs. Lightning intergration means we've got miminal energy usage concerns, and we're faster (less tha a second!) and cheaper than the competition. Liquid means we've added confidentialiy and you can manage bitcoin based assets, smart contracts and/or NFTs.
+							satisfy all of your Bitcoin related p2p needs. Lightning intergration means we've got miminal energy usage concerns, and we're faster (less tha a second!) and cheaper than the competition. Liquid means we've added confidentialiy and you can manage Bitcoin based assets, smart contracts and/or NFTs
 						</li>
 					</ul>
 				</Card>
@@ -38,11 +38,11 @@
 					<b class="text-2xl">Exchange</b>
 
 					<ul class="list-disc">
-						<li>Buy bitcoin safely in Canada using email money transfer</li>
+						<li>Buy Bitcoin safely in Canada using email money transfer</li>
 						<li class="bg-gray-800 p-2">
 							We’re fully open source. With a history of dodgy exchanges we’ve used ourselves in the
 							past, we’ve built ours so you don’t have to trust us, you can review the code
-							yourself.
+							yourself
 						</li>
 						<li>
 							We’re registered with FINTRAC as an MSB dealing in virtual currencies, the strongest
@@ -52,7 +52,7 @@
 							Once your ID has been verified (government requirement), you can transfer CAD in and
 							out of Bitcoin as fast as the fiat / traditional banking system will allow
 						</li>
-						<li>We instantly convert your CAD to satoshis (bitcoin), no extra work on your part</li>
+						<li>We instantly convert your CAD to satoshis (Bitcoin), no extra work on your part</li>
 					</ul>
 				</Card>
 				<Card>
@@ -60,7 +60,7 @@
 					<b class="text-2xl">Point of sale</b>
 					<ul class="list-disc">
 						<li>
-							Your business can be accepting bitcoin in less than 15 seconds after reading this
+							Your business can be accepting Bitcoin in less than 15 seconds after reading this
 						</li>
 						<li>
 							You can be selling products with invoice and QR code in less than one minute after

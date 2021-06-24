@@ -10,13 +10,13 @@
 	<div class="text-white bg-black w-full flex flex-wrap lg:flex-nowrap border-b-8 border-secondary">
 		<div class="xl:ml-72 py-24 w-2/3 flex-grow px-12">
 			<p class="text-4xl">
-				<b>We make bitcoin more usable every day. </b>
+				<b>We make Bitcoin more usable every day. </b>
 			</p>
 			<div class="text-2xl text-gray-200">
 				<p class="mb-4">
 					<b>Your Bitcoin, Liquid, and Lightning web wallet.</b><br />
 
-					The original bitcoin point-of-sale and white label NFT marketplace provider for businesses
+					The original Bitcoin point-of-sale and white label NFT marketplace provider for businesses
 					&amp; brands.
 				</p>
 
@@ -43,16 +43,16 @@
 		<ul>
 			<li>
 				No need to download a privacy invasive app or trust any American app store. Login and use us
-				from any internet enabled device.
+				from any internet enabled device
 			</li>
 			<li>
 				We uniquely offer custodial and non-custodial options making it easy for newbies to get
-				started while advanced users don’t have to trust us with their keys.
+				started while advanced users don’t have to trust us with their keys
 			</li>
 			<li>
 				We seamlessly integrate Bitcoin and layer-2 networks Lightning and Liquid. Lightning makes
 				us faster (less than a second!) and cheaper than the competition and Liquid means we've
-				added confidentiality and the ability to manage assets and NFTs.
+				added confidentiality and the ability to manage assets and NFTs
 			</li>
 		</ul>
 	</Card>
@@ -60,14 +60,14 @@
 		<Computer slot="icon" />
 		<b slot="title">Point of sale</b>
 		<ul>
-			<li>Your business can be accepting bitcoin in less than 15 seconds after reading this</li>
+			<li>Your business can be accepting Bitcoin in less than 15 seconds after reading this</li>
 			<li>
 				You can keep payments in BTC and risk the volatility or have all sales converted to your
-				national currency.
+				national currency
 			</li>
 			<li>
 				Instant settlement and transaction finality. Your funds belong to you and can be withdrawn
-				as soon as a payment lands in your account.
+				as soon as a payment lands in your account
 			</li>
 		</ul>
 	</Card>

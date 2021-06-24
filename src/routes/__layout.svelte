@@ -2,8 +2,8 @@
 	<div class="flex my-auto w-full">
 		<a href="/"><img src="/static/coinos.svg" alt="coinos" /></a>
 		<div class="flex sm:mt-2">
-			<a href="/about">About</a>
       <!--
+			<a href="/about">About</a>
 			<a href="/faq">FAQ</a>
       -->
 		</div>
@@ -40,6 +40,7 @@
 			<ul class="list-none">
 				<li class="mb-2"><a href="https://t.me/coinos">Support</a></li>
 				<li class="mb-2"><a href="/faq">FAQ</a></li>
+				<li class="mb-2"><a href="/about">About</a></li>
 			</ul>
 		</div>
 	</div>
