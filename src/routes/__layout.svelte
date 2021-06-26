@@ -1,11 +1,20 @@
+<svelte:head>
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="https://coinos.io/" />
+	<meta name="twitter:creator" content="@coinoswallet" />
+
+	<meta property="og:title" content="Coinos" />
+	<meta property="og:image" content="https://coinos.io/coinos.png" />
+	<meta property="og:url" content="https://coinos.io/" />
+	<meta name="twitter:title" content="Coinos" />
+	<meta name="twitter:image" content="https://coinos.io/coinos.png" />
+</svelte:head>
+
 <div class="flex header bg-secondary h-24 justify-center border-b-4 border-primary text-white p-4">
 	<div class="flex my-auto w-full">
 		<a href="/"><img src="/static/coinos.svg" alt="coinos" /></a>
 		<div class="flex sm:mt-2">
-      <!--
 			<a href="/about">About</a>
-			<a href="/faq">FAQ</a>
-      -->
 		</div>
 		<div class="ml-auto">
 			<a
