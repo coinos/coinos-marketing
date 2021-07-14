@@ -1,11 +1,8 @@
 ---
-layout: single
-title: Point Of Sale
-permalink: /point-of-sale/
-published: true
+layout: page
 ---
 
-We’re the service provider of the longest running bitcoin PoS seamlessly using Lightning Network and Bitcoin — your business can be accepting either in less than 1 minute as you’ll see below.
+We're the service provider of the longest running bitcoin PoS seamlessly using Lightning Network and Bitcoin — your business can be accepting either in less than 1 minute as you’ll see below.
 
 If your business wants to be able to accept bitcoin, no one can do it faster. A few examples:
 
@@ -15,5 +12,4 @@ Create an account on [CoinOS](https://coinos.io) and your username instantly bec
 
 You can go from no account to accepting Lightning (Bitcoin) for your business for a specific invoice in under 1 minute:
 
-[!/static/pos1min.png]
-[![click here for 1 minute video]({{ site.url }}{{ site.baseurl }}/static/videos/coinos-pos1min.webm)]
+<video src="/static/videos/coinos-posin1min.webm" controls poster="/static/pos1min.png" />

@@ -1,8 +1,4 @@
----
-categories: 
-  - nft
-permalink: /white-label-nft-marketplaces/
----
+# NFT White Label
 
 You've likely heard of non-fungible tokens or NFTs over the last year, and most of these NFTs are based on Ethererum, or [ERC-721](http://erc721.org/) tokens more specifically. One of the challenges of using this technology in the NFT space is that the Ethereum transaction fees, otherwise known as gas or gei fees, are extraordinarily high right now. It's not uncommon for the cost of adding a piece of art as an NFT, or "minting" it, to go upwards of $50.00 USD per art piece or NFT, making the technology unapproachable to most.
 
