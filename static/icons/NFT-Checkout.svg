@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="139.90407mm"
+   height="147.20551mm"
+   viewBox="0 0 139.90407 147.20551"
+   version="1.1"
+   id="svg5427">
+  <defs
+     id="defs5421">
+    <mask
+       id="mask-2-3-5-0"
+       fill="#ffffff">
+      <polygon
+         id="use1885-0-6-4"
+         points="0,106.00414 0,0.64969272 52.82253,0.64969272 52.82253,106.00414 "
+         transform="scale(0.26458333)" />
+    </mask>
+  </defs>
+  <metadata
+     id="metadata5424">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer6">
+    <path
+       id="rect4171"
+       style="opacity:1;fill:#000000;fill-opacity:0.999943;stroke:#000000;stroke-width:0.588983;stroke-opacity:1"
+       d="M 0.29492188 0.29492188 L 0.29492188 556.66211 L 529.06641 556.66211 L 529.06641 0.29492188 L 0.29492188 0.29492188 z M 73.628906 206.40625 L 116.33594 206.40625 L 179.0332 326.00977 L 179.68945 326.00977 C 179.471 320.47559 179.2151 315.01353 178.92383 309.625 C 178.85103 307.29482 178.74134 304.92839 178.5957 302.52539 C 178.5229 300.04958 178.44977 297.61002 178.37695 295.20703 C 178.30415 292.73122 178.23298 290.36478 178.16016 288.10742 L 178.16016 281.99023 L 178.16016 206.40625 L 208.52539 206.40625 L 208.52539 366.0957 L 165.59766 366.0957 L 102.79297 245.29102 L 101.81055 245.29102 C 102.24746 250.898 102.61107 256.46778 102.90234 262.00195 C 103.19362 266.73513 103.41101 271.7239 103.55664 276.9668 C 103.7751 282.13688 103.88477 286.79664 103.88477 290.94727 L 103.88477 366.0957 L 73.628906 366.0957 L 73.628906 206.40625 z M 248.83008 206.40625 L 340.36133 206.40625 L 340.36133 234.15039 L 282.14258 234.15039 L 282.14258 275.32812 L 336.32031 275.32812 L 336.32031 302.96289 L 282.14258 302.96289 L 282.14258 366.0957 L 248.83008 366.0957 L 248.83008 206.40625 z M 355.98047 206.40625 L 469.79492 206.40625 L 469.79492 234.58594 L 429.81836 234.58594 L 429.81836 366.0957 L 396.06641 366.0957 L 396.06641 234.58594 L 355.98047 234.58594 L 355.98047 206.40625 z "
+       transform="scale(0.26458333)" />
+    <g
+       aria-label="NFT"
+       id="text4181"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:59.1865px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;opacity:1;fill:#ffffff;stroke-width:1.47965" />
+  </g>
+</svg>

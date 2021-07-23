@@ -6,8 +6,42 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%svelte.head%
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+		</script>
 	</head>
 	<body>
 		<div id="svelte">%svelte.body%</div>
+		<script>
+			//Apply contextual bold and bottom border and Signup button color: 
+			var boldBorder = 'font-bold border-primary'
+
+			function delayAndRenderNav() {
+				if(window.location.pathname === '/') {
+					$('.NAVLINKS a').removeClass(boldBorder).addClass('border-black')
+				}
+				setTimeout( () => {
+					$('.NAVLINKS a[href="' + window.location.pathname + '"]')
+						.addClass(boldBorder).removeClass('border-black')
+				}, 250)
+			}
+
+			//Apply hover on page load: 
+			delayAndRenderNav()
+
+			//Apply it when the page URL changes: 
+			var lastLocation = window.location.pathname
+			$('body').on('DOMSubtreeModified', '#svelte', function(){
+  			if(lastLocation !== window.location.pathname) {
+					lastLocation = window.location.pathname
+					delayAndRenderNav()
+				}
+			})			
+
+			//Apply it on click: 
+			$(document).on('click', '.NAVLINKS a', function(e) {
+				$('.NAVLINKS a').removeClass(boldBorder).addClass('border-black')
+				$(e.currentTarget).addClass(boldBorder).removeClass('border-black')
+			})
+		</script>
 	</body>
 </html>
