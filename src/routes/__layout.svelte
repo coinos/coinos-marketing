@@ -9,7 +9,7 @@
 	<meta name="twitter:title" content="Coinos" />
 	<meta name="twitter:image" content="https://coinos.io/coinos.png" />
 	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 	</style>
 </svelte:head>
 
@@ -20,6 +20,7 @@
 			</a>
 			<div class="flex mt-5 NAVLINKS text-lg ml-6">
 				<a class="pb-5 border-b-4 border-black" href="/deploy">Deploy</a>
+				<a class="pb-5 border-b-4 border-black" href="/enterprise">Enterprise</a>				
 				<a class="pb-5 border-b-4 border-black" href="/about">About</a>
 			</div>
 			<div class="ml-auto flex mt-3 pt-1 my-auto">
