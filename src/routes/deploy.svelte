@@ -294,9 +294,4 @@
 	hr {
 		@apply mb-4;
 	}
-
-  .DEPLOY {
-    @apply font-bold; 
-  }
-  
 </style>
