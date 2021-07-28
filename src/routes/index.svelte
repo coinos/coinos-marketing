@@ -6,9 +6,9 @@
 	import Form from '../components/form.svelte';
 </script>
 
-<div class="flex">
-	<div class="text-white bg-black w-full flex flex-wrap lg:flex-nowrap border-b-8 border-secondary">
-		<div class="xl:ml-72 py-24 w-2/3 flex-grow px-12">
+<div class="bg-black">
+	<div class="text-white max-w-1100px mx-auto border-b-8 border-secondary pl-10 pr-7">
+		<div class="py-24 w-2/3 flex-grow">
 			<p class="text-4xl">
 				<b>We make Bitcoin more usable every day. </b>
 			</p>
@@ -27,15 +27,11 @@
 				>
 			</div>
 		</div>
-		<img
-			class="hidden lg:block ml-auto w-full lg:w-auto lg:object-cover mottled"
-			src="/mottled.jpg"
-			alt="Mottled gray texture"
-		/>
 	</div>
 </div>
 
-<div class="w-full container mx-auto px-12 mt-10 flex flex-wrap xl:grid xl:gap-4 xl:grid-cols-3">
+
+<div class="max-w-1100px mx-auto mt-10 flex flex-wrap grid gap-4 grid-cols-3">
 	<Card>
 		<Cash slot="icon" />
 		<b slot="title">Web wallet</b>
