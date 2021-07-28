@@ -1,6 +1,6 @@
-<div class="container px-12 mt-10">
-	<div class="xl:max-w-xl mx-auto">
-		<h1 class="mb-10">About</h1>
+<div class="mx-auto max-w-1100px mt-10 pl-10 pr-7">
+	<h1 class="mb-10">About</h1>
+	<div class=" max-w-xl">
 		<p>
 			Coinos is an open source bitcoin web wallet, point of sale, ecommerce marketplace and exchange
 			platform. Development started in Vancouver in September 2012 as a way to provide local merchants
@@ -47,39 +47,40 @@
 			Intra-account transfers between custodial wallets of different users on our server are
 			completely free, instant, and unlimited.
 		</p>
-	</div>
-	<div>
-		<h2 class="text-center my-12">Our team</h2>
 
-		<div class="flex flex-wrap lg:grid lg:grid-cols-2 mx-auto mt-12">
-			<div class="max-w-lg mx-auto">
-				<img src="/static/kris.jpg" class="mb-4 w-full" alt="Kris Constable" />
-				<h4 class="text-2xl">Kris Constable</h4>
-				<h4 class="text-lg mb-8">Chief Executive Officer</h4>
-				<ul>
-					<li>Professionally involved in bitcoin/blockchain first in Jan 2014</li>
-					<li>Global Security Expert for Canada's biggest company</li>
-					<li>
-						International Trainer on Privacy; Investigator & Advisor to privacy regulator since 2005
-					</li>
-					<li>Founder of IDVPN.ca, unique privacy centric KYC/AML/CTF compliance platform</li>
-					<li>Over 15 years founding companies, advising companies, and leading teams</li>
-					<li>Volunteer, humanitarian, iconoclast, perpetually curious</li>
-				</ul>
-			</div>
-			<div class="max-w-lg mx-auto">
-				<img src="/static/adam.jpg" class="mb-4 w-full" alt="Adam Soltys" />
-				<h4 class="text-2xl">Adam Soltys</h4>
-				<h4 class="text-lg mb-8">Chief Technical Officer</h4>
-				<ul>
-					<li>Running Bitcoin since 2011</li>
-					<li>20+ years web development experience in government and industry</li>
-					<li>Early Bitcoin Vancouver meetup organizer</li>
-					<li>Founder of The Bitcoin Co-op and early supporter of Decentral Vancouver</li>
-					<li>Yogi, permaculturist, anarchist, decentralist</li>
-					<li>Husband, father, brother, son</li>
-				</ul>
-			</div>
+	</div>
+</div>
+<div class="max-w-1100px mx-auto pl-10 pr-7 pb-12">
+	<h2 class="text-center my-12">Our team</h2>
+
+	<div class="flex flex-wrap lg:grid lg:grid-cols-2 mx-auto mt-12">
+		<div class="max-w-md mx-auto">
+			<img src="/static/kris.jpg" class="mb-4 w-full" alt="Kris Constable" />
+			<h4 class="text-2xl">Kris Constable</h4>
+			<h4 class="text-lg mb-8">Chief Executive Officer</h4>
+			<ul>
+				<li>Professionally involved in bitcoin/blockchain first in Jan 2014</li>
+				<li>Global Security Expert for Canada's biggest company</li>
+				<li>
+					International Trainer on Privacy; Investigator & Advisor to privacy regulator since 2005
+				</li>
+				<li>Founder of IDVPN.ca, unique privacy centric KYC/AML/CTF compliance platform</li>
+				<li>Over 15 years founding companies, advising companies, and leading teams</li>
+				<li>Volunteer, humanitarian, iconoclast, perpetually curious</li>
+			</ul>
+		</div>
+		<div class="max-w-md mx-auto">
+			<img src="/static/adam.jpg" class="mb-4 w-full" alt="Adam Soltys" />
+			<h4 class="text-2xl">Adam Soltys</h4>
+			<h4 class="text-lg mb-8">Chief Technical Officer</h4>
+			<ul>
+				<li>Running Bitcoin since 2011</li>
+				<li>20+ years web development experience in government and industry</li>
+				<li>Early Bitcoin Vancouver meetup organizer</li>
+				<li>Founder of The Bitcoin Co-op and early supporter of Decentral Vancouver</li>
+				<li>Yogi, permaculturist, anarchist, decentralist</li>
+				<li>Husband, father, brother, son</li>
+			</ul>
 		</div>
 	</div>
 </div>
