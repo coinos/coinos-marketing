@@ -19,12 +19,12 @@
 
 			function delayAndRenderNav() {
 				if(window.location.pathname === '/') {
-					$('.NAVLINKS a').removeClass(allClasses).addClass('border-black')
+					$('.NAVLINKS a').removeClass(allClasses).addClass('border-secondary')
 				}
 				setTimeout( () => {
 					$('.NAVLINKS a[href="' + window.location.pathname + '"]')
 						.addClass(boldBorder)
-						.removeClass('border-black')
+						.removeClass('border-secondary')
 						
 					if(window.location.pathname === '/enterprise') {
 						$('.NAVLINKS a[href="/enterprise"]')
@@ -61,13 +61,13 @@
 
 			//Apply it on click: 
 			$(document).on('click', '.NAVLINKS a', function(e) {
-				$('.NAVLINKS a').removeClass(allClasses).addClass('border-black')
+				$('.NAVLINKS a').removeClass(allClasses).addClass('border-secondary')
 				if(e.currentTarget.pathname === '/enterprise') {
 					$(e.currentTarget).addClass(boldBorderEnterprise)
 				} else {
 					$(e.currentTarget).addClass(boldBorder)
 				}
-				$(e.currentTarget).removeClass('border-black')
+				$(e.currentTarget).removeClass('border-secondary')
 				renderSignup()
 			})
 		</script>
