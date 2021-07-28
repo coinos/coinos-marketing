@@ -6,7 +6,7 @@
 			<h2>Bitcoin Basics</h2>
 			<hr />
 			<img
-				src="/static/contact.jpg"
+				src="/contact.jpg"
 				class="mb-4 xl:hidden xl:h-72 xl:mb-72 mx-auto"
 				alt="A backpacker and lumberjack enjoy some poutine"
 			/>
@@ -49,7 +49,7 @@
 			<h2>Business Owners</h2>
 			<hr />
 			<img
-				src="/static/faq.jpeg"
+				src="/faq.jpeg"
 				class="mb-4 xl:hidden xl:h-72 xl:mb-72 mx-auto"
 				alt="A man and woman in a board room"
 			/>
@@ -74,11 +74,11 @@
 		</div>
 		<div class="hidden xl:block w-full">
 			<img
-				src="/static/contact.jpg"
+				src="/contact.jpg"
 				class="h-72 mb-72 mx-auto"
 				alt="A backpacker and lumberjack enjoy some poutine"
 			/>
-			<img src="/static/faq.jpeg" class="h-72 mx-auto" alt="A man and woman in a board room" />
+			<img src="/faq.jpeg" class="h-72 mx-auto" alt="A man and woman in a board room" />
 		</div>
 	</div>
 </div>

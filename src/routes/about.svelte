@@ -55,7 +55,7 @@
 
 	<div class="flex flex-wrap lg:grid lg:grid-cols-2 mx-auto mt-12">
 		<div class="max-w-md mx-auto">
-			<img src="/static/kris.jpg" class="mb-4 w-full" alt="Kris Constable" />
+			<img src="/kris.jpg" class="mb-4 w-full" alt="Kris Constable" />
 			<h4 class="text-2xl">Kris Constable</h4>
 			<h4 class="text-lg mb-8">Chief Executive Officer</h4>
 			<ul>
@@ -70,7 +70,7 @@
 			</ul>
 		</div>
 		<div class="max-w-md mx-auto">
-			<img src="/static/adam.jpg" class="mb-4 w-full" alt="Adam Soltys" />
+			<img src="/adam.jpg" class="mb-4 w-full" alt="Adam Soltys" />
 			<h4 class="text-2xl">Adam Soltys</h4>
 			<h4 class="text-lg mb-8">Chief Technical Officer</h4>
 			<ul>

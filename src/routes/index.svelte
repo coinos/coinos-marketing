@@ -29,7 +29,7 @@
 		</div>
 		<img
 			class="hidden lg:block ml-auto w-full lg:w-auto lg:object-cover mottled"
-			src="/static/mottled.jpg"
+			src="/mottled.jpg"
 			alt="Mottled gray texture"
 		/>
 	</div>

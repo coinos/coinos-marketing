@@ -12,4 +12,4 @@ Create an account on [CoinOS](https://coinos.io) and your username instantly bec
 
 You can go from no account to accepting Lightning (Bitcoin) for your business for a specific invoice in under 1 minute:
 
-<video src="/static/videos/coinos-posin1min.webm" controls poster="/static/pos1min.png" />
+<video src="/videos/coinos-posin1min.webm" controls poster="/pos1min.png" />
