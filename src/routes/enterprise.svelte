@@ -46,9 +46,9 @@
       </div>
 
       <div class="pl-5 max-w-3xl font-light text-lg">
-        <p>The revolution in cryptographic token tech would not have been possible for not the incredible community of open source developers who have made the Bitcoin protocol what it is now: a network that has forever changed the face of finance fuelling over $2B of world trading volume everyday.</p>
+        <p>The revolution in cryptographic token tech would not have been possible for not the incredible community of open source developers who have made the Bitcoin protocol what it is now: a network that has forever changed the face of finance fuelling over <b class="font-bold">$2B</b> of world trading volume everyday.</p>
 
-        <p>Coinos was an early innovator in Bitcoin - and today our web wallet product already powers a fraction of that billion+ world trading volume - thanks to our implementation of another revolutionary tech that was built on top of Bitcoin: the Lightning network - to move that volume for our users instantly and for a per transaction fee of less than a penny. </p>
+        <p>Coinos was an early innovator in Bitcoin - and today our web wallet product already powers a fraction of that billion+ world trading volume - thanks to our implementation of another revolutionary tech that was built on top of Bitcoin: the <a href="https://lightning.network/" target="_blank">Lightning network</a> - to move that volume for our users instantly and for a per transaction fee of less than a penny. </p>
       </div>
 
     </div>
@@ -68,7 +68,7 @@
       </div>
 
       
-      <p class="pl-5 max-w-3xl font-light text-lg">The next major innovation we are embracing apart of the Bitcoin revolution is Liquid: an open source sidechain technology engineered originally by our colleagues Blockstream - a company among the most respected names in Bitcoin and our partner in Raretoshi - one of the first NFT marketplaces, and first Liquid powered NFT marketplace, for artists to upload artwork such as digital stills, video or cryptograffiti so they may auction it off in a way that leverages the excitement, exclusitivity & provably rare benefits of NFT technology.</p>
+      <p class="pl-5 max-w-3xl font-light text-lg">The next major innovation we are embracing apart of the Bitcoin revolution is <a href="https://blockstream.com/liquid/" target="_blank">Liquid</a>: an open source sidechain technology engineered originally by our colleagues <a href="https://blockstream.com/" target="_blank">Blockstream</a> - a company among the most respected names in Bitcoin and our partner in <a target="_blank" href="https://raretoshi.com/">Raretoshi</a> - one of the first NFT marketplaces, and first Liquid powered NFT marketplace, for artists to upload artwork such as digital stills, video or <i>cryptograffiti</i> that they can then auction off in a way that leverages the excitement, exclusitivity & provably rare benefits of NFT technology.</p>
 
     </div>
 
@@ -105,8 +105,8 @@
 
     <div class="pl-5 pr-10 mt-10 mx-auto max-w-1100px relative pb-32">
       <div class="pl-5 max-w-3xl font-light text-lg mb-14">
-        <p>Liquid, and by extension Bitcoin, has opened the door to make NFTs possible and we believe it is the best way to do them since the smartest players & millions of others already trust Bitcoin.  Competing solutions based on Ethereum do not have the reputation nor proven track record & sheer market performance of Bitcoin. </p>
-        <p>Our technology is open and we've already used it to build an NFT marketplace used by household name known brands. </p>
+        <p>Liquid, and by extension Bitcoin, has opened the door to make NFTs possible and we believe it is the best way to do them since the smartest players & millions of others already trust the Bitcoin protocol.  Competing 'altcoin' based solutions such as those powered by <a href="https://ethereum.org" target="_blank">Ethereum</a> do not have the reputation nor proven track record & sheer market performance of Bitcoin. </p>
+        <p>Our technology is open and we've already used it to build an NFT marketplace that has been used by household name known brands. </p>
         <p>Work with us today to build a custom NFT implementation for your brand & receive the tremendous benefits of deploying on our proven Bitcoin based open source technology platform - backed by the expertise of our experienced development team.</p>
       </div>
       {@html contactSalesBtn('ml-5 border-green-400 border-2')}         
@@ -126,10 +126,10 @@
 		@apply mb-4;
 	}
 
-  .DEPLOY {
-    @apply font-bold; 
-  }
-
+  a {
+		@apply text-blue-500 font-medium;
+	}
+  
   .greenGradient {
     background: rgb(0,121,72);
     background: linear-gradient(128deg, rgba(0,121,72,0.8036099137931034) 0%, rgba(0,121,72,0.4415409482758621) 100%);
