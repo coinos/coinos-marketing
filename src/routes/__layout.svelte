@@ -29,7 +29,7 @@
 					class="px-6 text-lg py-1">Login</a
 				>
 				<a
-					href="https://coinos.io/"
+					href="https://coinos.io/register"
 					class="SIGNUP bg-primary text-black px-3 text-lg py-1">Sign Up</a
 				>
 			</div>
