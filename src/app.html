@@ -6,70 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%svelte.head%
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-		</script>
 	</head>
 	<body>
 		<div id="svelte">%svelte.body%</div>
-		<script>
-			//Apply contextual bold and bottom border and Signup button color: 
-			var boldBorder = 'font-bold border-primary'
-			var boldBorderEnterprise = 'font-bold border-green-300'
-			var allClasses = boldBorder + ' border-green-300'
-
-			function delayAndRenderNav() {
-				if(window.location.pathname === '/') {
-					$('.NAVLINKS a').removeClass(allClasses).addClass('border-secondary')
-				}
-				setTimeout( () => {
-					$('.NAVLINKS a[href="' + window.location.pathname + '"]')
-						.addClass(boldBorder)
-						.removeClass('border-secondary')
-						
-					if(window.location.pathname === '/enterprise') {
-						$('.NAVLINKS a[href="/enterprise"]')
-						.addClass('border-green-300')
-						.removeClass('border-primary')
-
-						renderSignup()
-					}
-				}, 500)
-			}
-
-			function renderSignup() {
-				if(window.location.pathname === '/enterprise') {
-					$('.SIGNUP').addClass('bg-green-400').removeClass('bg-primary')
-				} else {
-					$('.SIGNUP').removeClass('bg-green-400').addClass('bg-primary')
-				}
-			}
-
-			//Apply hover on page load: 
-			delayAndRenderNav()
-
-			//Apply it when the page URL changes: 
-			var lastLocation = window.location.pathname
-			$('body').on('DOMSubtreeModified', '#svelte', function(){
-  			if(lastLocation !== window.location.pathname) {
-					lastLocation = window.location.pathname
-					delayAndRenderNav()
-					
-					//Apply diff color to Signup: 
-					renderSignup()
-				}
-			})			
-
-			//Apply it on click: 
-			$(document).on('click', '.NAVLINKS a', function(e) {
-				$('.NAVLINKS a').removeClass(allClasses).addClass('border-secondary')
-				if(e.currentTarget.pathname === '/enterprise') {
-					$(e.currentTarget).addClass(boldBorderEnterprise)
-				} else {
-					$(e.currentTarget).addClass(boldBorder)
-				}
-				$(e.currentTarget).removeClass('border-secondary')
-				renderSignup()
-			})
-		</script>
 	</body>
 </html>

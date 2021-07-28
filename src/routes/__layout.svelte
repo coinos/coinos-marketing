@@ -1,3 +1,10 @@
+<script>
+  import { page } from "$app/stores";
+  $: about = $page.path === '/about';
+  $: deploy = $page.path === '/deploy';
+  $: enterprise = $page.path === '/enterprise';
+</script>
+
 <svelte:head>
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="https://coinos.io/" />
@@ -19,9 +26,9 @@
 				<span class="text-white ">coin</span>os
 			</a>
 			<div class="flex mt-5 NAVLINKS text-lg ml-6">
-				<a class="pb-5 border-b-4 border-secondary" href="/deploy">Deploy</a>
-				<a class="pb-5 border-b-4 border-secondary" href="/enterprise">Enterprise</a>				
-				<a class="pb-5 border-b-4 border-secondary" href="/about">About</a>
+				<a class:deploy href="/deploy">Deploy</a>
+        <a class:enterprise href="/enterprise">Enterprise</a>				
+				<a class:about href="/about">About</a>
 			</div>
 			<div class="ml-auto flex mt-3 pt-1 my-auto">
 				<a
@@ -30,7 +37,9 @@
 				>
 				<a
 					href="https://coinos.io/register"
-					class="SIGNUP bg-primary text-black px-3 text-lg py-1">Sign Up</a
+          class:bg-primary={$page.path !== '/enterprise'}
+          class:bg-green-400={$page.path === '/enterprise'}
+					class="SIGNUP text-black px-3 text-lg py-1">Sign Up</a
 				>
 			</div>
 	</div>
@@ -76,7 +85,10 @@
 		@apply block;
 	}
 
-	.NAVLINKS a { @apply mx-4 }
+  .NAVLINKS a { @apply mx-4 pb-5 }
+
+  .deploy, .about { @apply border-b-4 border-primary } 
+  .enterprise { @apply border-b-4 border-green-300 } 
 
 	.card {
 		@apply rounded;
