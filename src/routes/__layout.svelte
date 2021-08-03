@@ -1,7 +1,6 @@
 <script>
   import { page } from "$app/stores";
   $: about = $page.path === '/about';
-  $: deploy = $page.path === '/deploy';
   $: enterprise = $page.path === '/enterprise';
 </script>
 
@@ -26,7 +25,6 @@
 				<span class="text-white ">coin</span>os
 			</a>
 			<div class="flex mt-5 NAVLINKS text-lg ml-6">
-				<a class:deploy href="/deploy">Deploy</a>
         <a class:enterprise href="/enterprise">Enterprise</a>				
 				<a class:about href="/about">About</a>
 			</div>
