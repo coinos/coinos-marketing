@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Coinos Deployment</title>
+  <title>Coinos Enterprise</title>
 </svelte:head>
 
 <script>
@@ -8,14 +8,14 @@
 
   const contactSalesBtn = classes => //html
     `<button class="bg-black text-white py-2.5 pl-0.5 pr-4 
-      border border-white border-opacity-50 
+      border border-white border-opacity-50  rounded-md 
       hover:border-opacity-100 ${classes ? classes : ''}">
-      <div class="flex">
+      <a href="/contact" class="flex">
         <span class="">${arrowIcon}</span> 
         <span class="inline-block mt-0.5 font-bold text-lg">
           Contact Sales
         </span>
-      </div>
+      </a>
     </button>`
 
 </script>
@@ -56,7 +56,7 @@
     <div class="border-t-4 border-b-4" style="background-color:#e6e9e8; border-top-color:#ced7d6;
     border-bottom-color:#ccede9;">
       <div class="max-w-1100px mx-auto">
-        <img class="max-w-4xl" src="/coinos-lnft-platform.png" />
+        <img class="max-w-4xl w-full h-auto" src="/coinos-lnft-platform.png" />
       </div>
     </div>
 

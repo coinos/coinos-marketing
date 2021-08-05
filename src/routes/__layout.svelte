@@ -1,7 +1,20 @@
 <script>
-  import { page } from "$app/stores";
-  $: about = $page.path === '/about';
-  $: enterprise = $page.path === '/enterprise';
+  import { page } from "$app/stores"
+	let about, enterprise, menuWasToggled, menuIsOpen, currentPage
+	const toggleMenu = () => menuWasToggled = true 
+  $: { //re-render: 
+		if(currentPage !== $page.path) {
+			//(on first page load or page change)
+			currentPage = $page.path 
+			menuIsOpen = false
+			about = $page.path === '/about';
+			enterprise = $page.path === '/enterprise';
+		}
+		if(menuWasToggled) {
+			menuIsOpen = menuIsOpen ? false : true 
+			menuWasToggled = false //< reset 
+		}
+	}
 </script>
 
 <svelte:head>
@@ -19,27 +32,47 @@
 	</style>
 </svelte:head>
 
-<div class="header bg-secondary justify-center text-white pt-2">
+<div class="header bg-secondary justify-center text-white pt-2"
+		 style="min-height: 80px;">
 	<div class="max-w-1100px	mx-auto flex pl-10 pr-7">
 			<a class="mr-5 text-2.5r text-primary" href="/">
 				<span class="text-white ">coin</span>os
 			</a>
 			<div class="flex mt-5 NAVLINKS text-lg ml-6">
-        <a class:enterprise href="/enterprise">Enterprise</a>				
-				<a class:about href="/about">About</a>
+        <a class:enterprise class="hidden sm:block border-b-4 border-black"
+					 href="/enterprise">Enterprise</a>				
+				<a class:about class="hidden sm:block border-b-4 border-black"
+					 href="/about">About</a>
 			</div>
 			<div class="ml-auto flex mt-3 pt-1 my-auto">
 				<a
 					href="https://coinos.io/"
-					class="px-6 text-lg py-1">Login</a
+					class="px-6 text-lg py-1 hidden md:block">Login</a
 				>
 				<a
 					href="https://coinos.io/register"
           class:bg-primary={$page.path !== '/enterprise'}
           class:bg-green-400={$page.path === '/enterprise'}
-					class="SIGNUP text-black px-3 text-lg py-1">Sign Up</a
+					class="text-black px-3 text-lg py-1 hidden rounded-md md:block">Sign Up</a
 				>
 			</div>
+
+			<div class="my-4 md:hidden cursor-pointer" on:click={toggleMenu}>
+				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" fill="currentColor"></path></svg>
+			</div>
+
+			<div class="{menuIsOpen ? 'md:hidden' : 'invisible'}
+									absolute right-3 text-white max-w-sm
+									bg-secondary text-right"
+					 style="top:4.7rem;">
+        <a class="block sm:hidden py-6 px-5 hover:bg-white hover:bg-opacity-10" href="/enterprise">Enterprise</a>				
+				<a class="block sm:hidden py-6 px-5 hover:bg-white hover:bg-opacity-10" href="/about">About</a>
+				<a class="block py-6 px-6 hover:bg-white hover:bg-opacity-10" href="https://coinos.io/">Login</a>
+				<a class="block py-6 px-6 -mr-2.5 hover:bg-white hover:bg-opacity-10" href="https://coinos.io/register">
+					<span class="bg-primary text-black rounded-md py-2 px-4">Sign Up</span>
+				</a>
+			</div>
+
 	</div>
 </div>
 
@@ -79,14 +112,10 @@
 		font-family: 'Roboto', sans-serif;
 	}
 
-	.header a {
-		@apply block;
-	}
-
   .NAVLINKS a { @apply mx-4 pb-5 }
 
-  .deploy, .about { @apply border-b-4 border-primary } 
-  .enterprise { @apply border-b-4 border-green-300 } 
+  .deploy, .about { @apply border-primary } 
+  .enterprise { @apply border-green-300 } 
 
 	.card {
 		@apply rounded;
@@ -101,5 +130,9 @@
 	}
 	.text-black-70 {
 		@apply text-opacity-50 text-black; 
+	}
+
+	::selection { 
+		@apply bg-primary text-black; 
 	}
 </style>
