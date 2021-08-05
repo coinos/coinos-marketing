@@ -53,7 +53,7 @@
 <div class="max-w-1100px mx-auto pl-10 pr-7 pb-12">
 	<h2 class="mt-12 font-bold text-3xl">Our team</h2>
 
-	<div class="flex flex-wrap lg:grid lg:grid-cols-2 mx-auto mt-6">
+	<div class="flex flex-wrap md:grid lg:grid lg:grid-cols-2 mx-auto mt-6">
 		<div class="max-w-md">
 			<img src="/kris.jpg" class="mb-4 w-full" alt="Kris Constable" />
 			<h4 class="text-2xl">Kris Constable</h4>

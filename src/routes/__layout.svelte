@@ -39,9 +39,9 @@
 				<span class="text-white ">coin</span>os
 			</a>
 			<div class="flex mt-5 NAVLINKS text-lg ml-6">
-        <a class:enterprise class="hidden sm:block border-b-4 border-black"
+        <a class:enterprise class="hidden sm:block border-b-4 border-secondary border-opacity-0"
 					 href="/enterprise">Enterprise</a>				
-				<a class:about class="hidden sm:block border-b-4 border-black"
+				<a class:about class="hidden sm:block border-b-4 border-secondary border-opacity-0"
 					 href="/about">About</a>
 			</div>
 			<div class="ml-auto flex mt-3 pt-1 my-auto">
@@ -62,7 +62,7 @@
 			</div>
 
 			<div class="{menuIsOpen ? 'md:hidden' : 'invisible'}
-									absolute right-3 text-white max-w-sm
+									absolute right-3 text-white max-w-sm z-50
 									bg-secondary text-right"
 					 style="top:4.7rem;">
         <a class="block sm:hidden py-6 px-5 hover:bg-white hover:bg-opacity-10" href="/enterprise">Enterprise</a>				
@@ -114,8 +114,8 @@
 
   .NAVLINKS a { @apply mx-4 pb-5 }
 
-  .deploy, .about { @apply border-primary } 
-  .enterprise { @apply border-green-300 } 
+  .deploy, .about { @apply border-primary border-opacity-100 } 
+  .enterprise { @apply border-green-300 border-opacity-100 } 
 
 	.card {
 		@apply rounded;
