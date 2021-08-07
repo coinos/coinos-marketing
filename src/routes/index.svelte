@@ -28,6 +28,8 @@
 
 <div style="min-height:90vh; margin-top:-4px;">
 	<div class="bg-black border-white border-opacity-30" style="border-top-width: 4px;">
+<div style="min-height:90vh;">
+	<div class="bg-black border-white border-opacity-20" style="border-top-width: 4px;">
 		<div class="text-white max-w-1100px mx-auto pl-10 pr-7 relative min-h-600px sm:min-h-500px">
 			<div class="absolute z-20">
 				<div class="pb-24 pt-12 md:pt-24 w-2/3 flex-grow z-20">

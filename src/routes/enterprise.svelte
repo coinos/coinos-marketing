@@ -24,7 +24,8 @@
 	<div class="mx-auto min-h-screen">
 
     <!-- HEADING ('Deploy your own coinos')-->
-    <div class=" bg-gray-600 border-b-8 border-green-300">
+    <div class=" bg-gray-600 border-b-8 border-green-300 border-t-4"
+      style="border-top-color:rgb(13, 242, 200, 0.1)">
       <div class="max-w-1100px px-10 py-24 mx-auto">
         <h1 class="text-white text-5xl">Let us build an <span class="text-green-300">NFT marketplace</span><br>for your brand</h1>
         <p class="text-white max-w-3xl font-light text-2xl">

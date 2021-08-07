@@ -1,4 +1,5 @@
-<div class="mx-auto max-w-1100px mt-10 pl-10 pr-7">
+<div class="border-primary border-t-4 border-opacity-70"></div>
+<div class="mx-auto max-w-1100px pt-10 pl-10 pr-7">
 	<h1 class="mb-10">About</h1>
 	<div class=" max-w-xl">
 		<p>
