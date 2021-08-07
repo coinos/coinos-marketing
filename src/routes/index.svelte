@@ -121,12 +121,13 @@
 		</Card>
 	</div>
 
-	<div class="pl-12 mt-12">
-		<h2 class="text-black text-3xl">Get your business on the <span class="font-black">blockchain today</span>.</h2>
-		<div class="mt-7 flex">
-			<ContactSalesBtn></ContactSalesBtn>
+	<div class="max-w-1100px mx-auto">
+		<div class="px-12 mt-12">
+			<h2 class="text-black text-3xl">Get your business on the <span class="font-black">blockchain today</span>.</h2>
+			<div class="mt-7 flex">
+				<ContactSalesBtn></ContactSalesBtn>
+			</div>
 		</div>
-
 	</div>
 
 	<div class="mt-20"></div>
