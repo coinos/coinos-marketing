@@ -32,7 +32,7 @@
 	</style>
 </svelte:head>
 
-<div class="header bg-secondary justify-center text-white pt-2"
+<div class="header bg-secondary justify-center text-white pt-2 relative z-50"
 		 style="min-height: 80px;">
 	<div class="max-w-1100px	mx-auto flex pl-10 pr-7">
 			<a class="mr-5 text-2.5r text-primary" href="/">
@@ -64,7 +64,7 @@
 			<div class="{menuIsOpen ? 'md:hidden' : 'invisible'}
 									absolute right-3 text-white max-w-sm z-50
 									bg-secondary text-right"
-					 style="top:4.7rem;">
+					 style="top:4.8rem;">
         <a class="block sm:hidden py-6 px-5 hover:bg-white hover:bg-opacity-10" href="/enterprise">Enterprise</a>				
 				<a class="block sm:hidden py-6 px-5 hover:bg-white hover:bg-opacity-10" href="/about">About</a>
 				<a class="block py-6 px-6 hover:bg-white hover:bg-opacity-10" href="https://coinos.io/">Login</a>
