@@ -6,11 +6,11 @@ const anime = require('animejs')
 ;(async () => {
   
   //wait for Svelte to render the initial page: 
-  await new Promise(r => setTimeout(r, 400))
+  await new Promise(r => setTimeout(r, 200))
 
   document.getElementById('SLIDES').innerHTML = /*html*/`
     <div id="TEXT" class="absolute z-20" style="opacity:0; top:-100px;">
-      <div class="pb-24 pt-20 md:pt-24 w-4/5 flex-grow z-10">
+      <div class="pb-24 pt-16 xs:pt-20 sm:pt-24 w-4/5 flex-grow z-10">
         <p class="text-4xl font-medium">
           We make <span class="text-primary font-extrabold">Bitcoin</span> more usable every day.
         </p>
