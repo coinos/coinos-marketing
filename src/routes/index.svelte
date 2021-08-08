@@ -10,10 +10,6 @@
 	import ContactSalesBtn from '../components/contact-sales-btn.svelte'; 
 </script>
 
-<script context="module">
-	export const router = false;
-</script>
-
 <div style="min-height:90vh;">
 	<div class="bg-black relative" style="">
 		<div class="border-white border-opacity-20 border-t-4 z-50 relative"></div>
