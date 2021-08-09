@@ -10,7 +10,8 @@
 	<div class="bg-black relative" style="">
 		<div class="border-white border-opacity-20 border-t-4 z-50 relative"></div>
     <div id="SLIDES" class="text-white max-w-1100px mx-auto pl-10 pr-7 relative min-h-500px z-0 sm:min-h-430px">
-    </div>
+		</div>
+		<div class="border-t-4" style="border-color:darkgray;"></div>
 	</div>
 
 	<div class="max-w-1100px mx-auto mt-10 md:grid lg:gap-4 grid-cols-3">

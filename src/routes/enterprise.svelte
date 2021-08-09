@@ -23,20 +23,21 @@
 <main class="relative">
 	<div class="mx-auto min-h-screen">
 
-    <!-- HEADING ('Deploy your own coinos')-->
-    <div class=" bg-gray-600 border-b-8 border-green-300 border-t-4"
-      style="border-top-color:rgb(13, 242, 200, 0.1)">
-      <div class="max-w-1100px px-10 py-24 mx-auto">
-        <h1 class="text-white text-5xl">Let us build an <span class="text-green-300">NFT marketplace</span><br>for your brand</h1>
-        <p class="text-white max-w-3xl font-light text-2xl">
+    <div class="px-10 flex-grow bg-gray-600 border-b-8 border-green-300 border-t-4 min-h-500px sm:min-h-430px"
+         style="border-top-color:rgb(13, 242, 200, 0.1)">
+
+      <p class="text-4xl font-medium text-white pt-16 xs:pt-20 sm:pt-24 ">
+        Let us build an <span class="text-green-300 font-extrabold">NFT marketplace</span><br>for your brand
+      </p>
+      <div class="text-2xl text-gray-200 pr-12">
+        <p class="mb-4 mt-6 font-light">
           The largest brands in the world are in the early stages of integrating NFT technology - and they are using our platform to do it. 
         </p>
-        <div class="mt-7 flex">
+        <div class="mt-7 flex pb-20">
           {@html contactSalesBtn()}         
         </div>
-      </div>
+      </div>    
     </div>
-
 
     <!-- BODY -->
 
