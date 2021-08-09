@@ -163,6 +163,19 @@ function slideA() {
         </div>      
       </div>
     </div>
+    <div class="invisible z-20"> <!-- mirror structure for responsive height --> 
+      <div class="pb-24 pt-16 xs:pt-20 sm:pt-24 w-4/5 flex-grow z-10">
+        <p class="text-4xl font-medium">
+          We make <span class="text-primary font-extrabold">Bitcoin</span> more usable every day.
+        </p>
+        <div class="text-2xl text-gray-200">
+          <p class="mb-4 mt-6 font-light">
+            Your Bitcoin, Liquid, and Lightning web wallet
+          </p>
+          ${signupBtn}
+        </div>      
+      </div>
+    </div>    
     <!-- honeycomb background animation --> 
     <div id="HONEYANIMATE" transition:fade class="absolute w-full bottom-0 right-0 flex flex-col" style="opacity:0; z-index:0">
       <div class="flex-auto"></div>
@@ -174,7 +187,7 @@ function slideA() {
 
 function slideB() {
   return /*html*/`
-  <div id="SLIDE-B" class="absolute z-20" 
+  <div id="SLIDE-B" class="absolute z-20  top-0" 
        style="opacity:${coinos.slideBcomplete ? 1 : 0}; left: ${coinos.slideBcomplete ? 41 : '-100'}px;">
     <div class="pb-24 pt-16 xs:pt-20 sm:pt-24 flex-grow z-10">
       <p class="text-4xl font-light">
