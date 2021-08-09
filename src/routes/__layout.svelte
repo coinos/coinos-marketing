@@ -33,32 +33,42 @@
 	<script src="/js/index.bundle.js"></script>
 </svelte:head>
 
-<div class="header bg-secondary justify-center text-white pt-2 relative z-50"
+<div class="header bg-secondary justify-center  pt-2 relative z-50"
 		 style="min-height: 80px;">
 	<div class="max-w-1100px	mx-auto flex pl-10 pr-7">
 			<a class="mr-5 text-2.5r text-primary" href="/">
 				<span class="text-white ">coin</span>os
 			</a>
 			<div class="flex mt-5 NAVLINKS text-lg ml-6">
-        <a class:enterprise class="hidden sm:block border-b-4 border-secondary border-opacity-0"
+        <a class:enterprise class="hidden sm:block border-b-4 border-secondary border-opacity-0 
+																	 text-opacity-90 text-white
+															     hover:text-opacity-100 transition duration-100 ease-in-out"
 					 href="/enterprise">Enterprise</a>				
-				<a class:about class="hidden sm:block border-b-4 border-secondary border-opacity-0"
+				<a class:about class="hidden sm:block border-b-4 border-secondary border-opacity-0
+															text-opacity-90 text-white
+															hover:text-opacity-100 transition duration-100 ease-in-out"
 					 href="/about">About</a>
 			</div>
 			<div class="ml-auto flex mt-3 pt-1 my-auto">
 				<a
 					href="https://coinos.io/"
-					class="px-6 text-lg py-1 hidden md:block">Login</a
-				>
+					class="px-6 text-lg py-1 hidden md:block
+							 text-opacity-90
+							 hover:text-opacity-100 transition duration-100 ease-in-out text-white">
+							 Login
+				</a>
 				<a
 					href="https://coinos.io/register"
           class:bg-primary={$page.path !== '/enterprise'}
           class:bg-green-400={$page.path === '/enterprise'}
-					class="text-black px-3 text-lg py-1 hidden rounded-md md:block">Sign Up</a
-				>
+					class="text-black px-3 text-lg py-1 hidden rounded-md md:block
+							 border-white border-2 border-opacity-0
+								 transition duration-200 ease-in-out-back hover:bg-black hover:text-white
+			  			   hover:border-opacity-60">
+								 Sign Up</a>
 			</div>
 
-			<div class="my-4 md:hidden cursor-pointer" on:click={toggleMenu}>
+			<div class="my-4 md:hidden cursor-pointer text-white" on:click={toggleMenu}>
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" fill="currentColor"></path></svg>
 			</div>
 
@@ -115,8 +125,8 @@
 
   .NAVLINKS a { @apply mx-4 pb-5 }
 
-  .deploy, .about { @apply border-primary border-opacity-100 } 
-  .enterprise { @apply border-green-300 border-opacity-100 } 
+  .deploy, .about { @apply border-primary border-opacity-100 text-opacity-100 } 
+  .enterprise { @apply border-green-300 border-opacity-100 text-opacity-100 } 
 
 	.card {
 		@apply rounded;

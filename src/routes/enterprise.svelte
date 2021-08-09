@@ -9,7 +9,9 @@
   const contactSalesBtn = classes => //html
     `<button class="bg-black text-white py-2.5 pl-0.5 pr-4 
       border border-white border-opacity-50  rounded-md 
-      hover:border-opacity-100 ${classes ? classes : ''}">
+      hover:border-opacity-100 ${classes ? classes : ''}
+      transition duration-200 ease-in-out-back
+      ">
       <a href="/contact" class="flex">
         <span class="">${arrowIcon}</span> 
         <span class="inline-block mt-0.5 font-bold text-lg">

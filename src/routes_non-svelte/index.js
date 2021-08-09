@@ -135,7 +135,10 @@ const animate = async () => {
 const signupBtn = /*html*/`
   <a href="https://coinos.io/register"
      class="text-center inline-block rounded-xl mt-6 
-          bg-primary text-black py-3 px-9 sm:px-12 text-xl">
+          bg-primary text-black py-3 px-6 sm:px-9 text-xl
+          border-white border-2 border-opacity-0
+          transition duration-200 ease-in-out-back hover:bg-black hover:text-white
+          hover:border-opacity-60">
     Sign Up
   </a>
 `
@@ -216,7 +219,11 @@ function slideC() {
         </p>
         <a href="/enterprise"
         class="text-center inline-block rounded-xl mt-6 
-        bg-green-400 text-black py-3 px-6 sm:px-9 text-xl">
+        bg-green-400 text-black py-3 px-3 sm:px-6 text-xl
+        border-white border-2 border-opacity-0
+        transition duration-200 ease-in-out-back hover:bg-black hover:text-white
+        hover:border-opacity-60
+        ">
           Learn More
         </a>
       </div>    
