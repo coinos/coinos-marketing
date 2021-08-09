@@ -23,20 +23,22 @@
 <main class="relative">
 	<div class="mx-auto min-h-screen">
 
-    <div class="px-10 flex-grow bg-gray-600 border-b-8 border-green-300 border-t-4 min-h-500px sm:min-h-430px"
+    <div class="flex-grow bg-gray-600 border-b-8 border-green-300 border-t-4 min-h-500px sm:min-h-430px"
          style="border-top-color:rgb(13, 242, 200, 0.1)">
 
-      <p class="text-4xl font-medium text-white pt-16 xs:pt-20 sm:pt-24 ">
-        Let us build an <span class="text-green-300 font-extrabold">NFT marketplace</span><br>for your brand
-      </p>
-      <div class="text-2xl text-gray-200 pr-12">
-        <p class="mb-4 mt-6 font-light">
-          The largest brands in the world are in the early stages of integrating NFT technology - and they are using our platform to do it. 
+        <div class="max-w-1100px mx-auto px-10">
+        <p class="text-4xl font-medium text-white pt-16 xs:pt-20 sm:pt-24 ">
+          Let us build an <span class="text-green-300 font-extrabold">NFT marketplace</span><br>for your brand
         </p>
-        <div class="mt-7 flex pb-20">
-          {@html contactSalesBtn()}         
+        <div class="text-2xl text-gray-200 pr-12">
+          <p class="mb-4 mt-6 font-light w-4/5">
+            The largest brands in the world are in the early stages of integrating NFT technology - and they are using our platform to do it. 
+          </p>
+          <div class="mt-7 flex pb-20">
+            {@html contactSalesBtn()}         
+          </div>
         </div>
-      </div>    
+      </div>
     </div>
 
     <!-- BODY -->
