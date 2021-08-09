@@ -1,15 +1,27 @@
-// ### Post svelte-kit page render JS ### 
+// ### Post svelte-kit:start (initial pageload ie- onMount ) JS ### 
 
 const anime = require('animejs')
 
-// async from top level: 
-;(async () => {
-  
-  //wait for Svelte to render the initial page: 
-  await new Promise(r => setTimeout(r, 200))
+const svelteEvents = ['sveltekit:start', 'sveltekit:navigation-end']
+svelteEvents.forEach( svelteEvent => 
+  window.addEventListener(svelteEvent, e => handleSvelte(e))
+)
+
+const initialState =  {
+  animComplete : false
+}
+
+const handleSvelte = e => {
+  // Establish global (window) state if not already: 
+  if(!global.coinos) global.coinos = initialState
+  // Init index when we navigate there: 
+  if(window.location.pathname === '/') return initIndex() 
+}
+
+const initIndex = async () => {
 
   document.getElementById('SLIDES').innerHTML = /*html*/`
-    <div id="TEXT" class="absolute z-20" style="opacity:0; top:-100px;">
+    <div id="TEXT" class="absolute z-20" style="opacity:${coinos.animComplete ? 1 : 0}; top:${coinos.animComplete ? '0' : '-100'}px;">
       <div class="pb-24 pt-16 xs:pt-20 sm:pt-24 w-4/5 flex-grow z-10">
         <p class="text-4xl font-medium">
           We make <span class="text-primary font-extrabold">Bitcoin</span> more usable every day.
@@ -32,6 +44,10 @@ const anime = require('animejs')
       <img style="width:100%;" src="/honeycomb.gif" />
     </div>      
   `
+
+  //Do not rerun anim if already complete 
+  if(coinos.animComplete) return
+
   // ## text animation ## 
   const textAnim = anime.timeline() 
 
@@ -69,4 +85,6 @@ const anime = require('animejs')
     easing: 'easeInOutQuart'
   })
 
-})()
+  coinos.animComplete = true 
+
+}

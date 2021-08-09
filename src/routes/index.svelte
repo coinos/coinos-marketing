@@ -1,7 +1,3 @@
-<svelte:head>
-	<script src="/js/index.bundle.js"></script>
-</svelte:head>
-
 <script>
 	import Cash from '../icons/cash.svelte';
 	import Computer from '../icons/computer.svelte';
