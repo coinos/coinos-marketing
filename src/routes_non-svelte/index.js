@@ -26,8 +26,7 @@ const handleSvelte = (e, svelteEvent) => {
     coinos.animComplete = true 
   } else if(  svelteEvent === 'sveltekit:navigation-end' 
       && window.location.pathname === '/'  ) {
-    setTimeout(initIndex, 50)
-    //initIndex() //< also run init if returning; 
+    initIndex() //< also run init if returning; 
     //(this will stop animation and re-render the last played slide)
   }
 }
@@ -48,6 +47,7 @@ const initIndex = async () => {
       return
     }
     coinos.currentSlide = 'B'
+    document.getElementById('SLIDE-B').classList.remove('hidden')
     await playSlideB()
     coinos.slideBcomplete = true
     if(coinos.animComplete) {
@@ -55,6 +55,8 @@ const initIndex = async () => {
       return
     }
     coinos.currentSlide = 'C'
+    document.getElementById('SLIDE-B').classList.add('hidden')
+    document.getElementById('SLIDE-C').classList.remove('hidden')
     await playSlideC()
     coinos.slideCcomplete = true
     coinos.animComplete = true 
@@ -63,24 +65,15 @@ const initIndex = async () => {
     if(coinos.currentSlide === 'A' ) {
       coinos.slideAcomplete = true 
       coinos.slideBcomplete = false 
-      coinos.slideCcomplete = false
-      document.getElementById('SLIDE-A').classList.remove('hidden')
-      document.getElementById('SLIDE-B').classList.add('hidden')
-      document.getElementById('SLIDE-C').classList.add('hidden')       
+      coinos.slideCcomplete = false     
     } else if(coinos.currentSlide === 'B') {
       coinos.slideAcomplete = false 
       coinos.slideBcomplete = true 
-      coinos.slideCcomplete = false 
-      document.getElementById('SLIDE-A').classList.add('hidden')
-      document.getElementById('SLIDE-B').classList.remove('hidden')
-      document.getElementById('SLIDE-C').classList.add('hidden')      
+      coinos.slideCcomplete = false      
     } else if(coinos.currentSlide === 'C') {
       coinos.slideAcomplete = false 
       coinos.slideBcomplete = false 
       coinos.slideCcomplete = true 
-      document.getElementById('SLIDE-A').classList.add('hidden')
-      document.getElementById('SLIDE-B').classList.add('hidden')      
-      document.getElementById('SLIDE-C').classList.remove('hidden')
     }
     // re-render: 
     renderSlides() 
@@ -163,7 +156,7 @@ function slideA() {
         </div>      
       </div>
     </div>
-    <div class="invisible z-20"> <!-- mirror structure for responsive height --> 
+    <div class="invisible z-0 select-none"> <!-- mirror structure for responsive height --> 
       <div class="pb-24 pt-16 xs:pt-20 sm:pt-24 w-4/5 flex-grow z-10">
         <p class="text-4xl font-medium">
           We make <span class="text-primary font-extrabold">Bitcoin</span> more usable every day.
@@ -187,7 +180,8 @@ function slideA() {
 
 function slideB() {
   return /*html*/`
-  <div id="SLIDE-B" class="absolute z-20  top-0" 
+  <div id="SLIDE-B" class="absolute z-20  top-0 
+       ${coinos.currentSlide === 'B' ? '' : 'hidden' }" 
        style="opacity:${coinos.slideBcomplete ? 1 : 0}; left: ${coinos.slideBcomplete ? 41 : '-100'}px;">
     <div class="pb-24 pt-16 xs:pt-20 sm:pt-24 flex-grow z-10">
       <p class="text-4xl font-light">
@@ -209,7 +203,8 @@ function slideB() {
 
 function slideC() {
   return /*html*/`
-  <div id="SLIDE-C" class="absolute z-20" 
+  <div id="SLIDE-C" class="absolute z-20
+       ${coinos.currentSlide === 'C' ? '' : 'hidden' }"
        style="opacity:${coinos.slideCcomplete ? 1 : 0}; top: ${coinos.slideCcomplete ? 0 : '-500'}px;">
     <div class="pb-24 pt-16 xs:pt-20 sm:pt-24 flex-grow z-10 w-4/5">
       <p class="text-4xl font-light">
