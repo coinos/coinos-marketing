@@ -4,13 +4,13 @@
 
 <div style="min-height: 90vh;">
 	<div class="mx-auto max-w-1100px mt-10 pl-10 pr-7">
-		<h1 class="mb-10">Contact</h1>
+		<h1 class="mb-10">Contact Sales</h1>
 		<div class=" max-w-xl">
 			<p>
-				Coinos is an open source bitcoin web wallet, point of sale, ecommerce marketplace and exchange
-				platform. Development started in Vancouver in September 2012 as a way to provide local merchants
-				with a convenient way to accept bitcoin payments.
+				Coinos offers complete custom design &amp; build consulting for leveraging our open source technology &amp; expertise to develop innovative Bitcoin &amp; NFT solutions.
 			</p>
+
+			<p>We are here to work with you! Tell us more about your next exciting project or opportunity below.</p>
 		</div>
 	</div>
 	
