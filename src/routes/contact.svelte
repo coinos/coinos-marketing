@@ -1,6 +1,3 @@
-<script>
-	import Form from '../components/form.svelte';
-</script>
 
 <div style="min-height: 90vh;">
 	<div class="mx-auto max-w-1100px mt-10 pl-10 pr-7">
@@ -16,7 +13,7 @@
 	
 	<div class="mx-auto max-w-1100px mt-10">
 		<div class="max-w-2xl pl-10 pr-7 pb-12">
-			<Form />
+			<a class="text-lg font-bold hover:text-blue-600" href="mailto:contact@coinos.io">contact@coinos.io</a>
 		</div>
 	</div>
 </div>
