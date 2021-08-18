@@ -139,7 +139,7 @@ const signupBtn = /*html*/`
           border-white border-2 border-opacity-0
           transition duration-200 ease-in-out-back hover:bg-black hover:text-white
           hover:border-opacity-60">
-    Sign Up
+    Register
   </a>
 `
 

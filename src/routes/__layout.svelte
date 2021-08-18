@@ -78,9 +78,9 @@
 					 style="top:4.8rem;">
         <a class="block sm:hidden py-6 px-5 hover:bg-white hover:bg-opacity-10" href="/enterprise">Enterprise</a>				
 				<a class="block sm:hidden py-6 px-5 hover:bg-white hover:bg-opacity-10" href="/about">About</a>
-				<a class="block py-6 px-6 hover:bg-white hover:bg-opacity-10" href="https://coinos.io/">Login</a>
+				<a class="block py-6 px-6 hover:bg-white hover:bg-opacity-10" href="https://coinos.io/login">Login</a>
 				<a class="block py-6 px-6 -mr-2.5 hover:bg-white hover:bg-opacity-10" href="https://coinos.io/register">
-					<span class="bg-primary text-black rounded-md py-2 px-4">Sign Up</span>
+					<span class="bg-primary text-black rounded-md py-2 px-4">Register</span>
 				</a>
 			</div>
 
