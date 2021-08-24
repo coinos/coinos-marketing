@@ -38,10 +38,9 @@
         <p class="text-white max-w-md font-light text-2xl">
           Customize & launch your own instance of our open source cryptocurrency system.
         </p>
-
         <div class="mt-7 flex">
-          {@html deployBtn('mr-3') }
-          {@html btn(null, 'See Pricing') }
+          <a href="/pricing">{@html deployBtn('mr-3') }</a>
+          <a href="/pricing">{@html btn(null, 'See Pricing') }</a>
         </div>
       </div>
     </div>
@@ -83,10 +82,10 @@
             <input class="px-2 py-1.5" placeholder="Password" />
           </div>
           <div class="text-right">
-            {@html deployBtn()}
+            <a href="/pricing">{@html deployBtn()}</a>
           </div>
           <div class="text-right">
-            {@html btn('mt-2', 'See Pricing') }
+            <a href="/pricing">{@html btn('mt-2', 'See Pricing') }</a>
           </div>
           <p class="text-right mt-10">Prefer fully managed?<br>
             Try our 
