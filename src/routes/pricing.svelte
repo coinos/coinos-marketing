@@ -3,6 +3,9 @@
 </svelte:head>
 
 <script>
+
+  import SelectableItem from '../components/selectable-item.svelte'; 
+
   //Template vars: 
   const arrowIcon = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 17l5-5l-5-5v10z" fill="currentColor"></path></svg>`
 
@@ -43,7 +46,7 @@
 
     <div class="pl-5 pr-10 mt-5 mx-auto max-w-1100px relative pb-16">
 
-      <div class="absolute top-0 right-0  mr-7 z-30">
+      <div class="absolute top-0 right-0  mr-7 z-30 max-w-md">
         <div class="bg-black pb-2 text-white">
           <h3 class="text-1.7r text-primary border-b-2 border-gray-500  px-4 pt-2 pb-2">
             <span class="text-white-50">new</span>	
@@ -68,18 +71,42 @@
           </div> 
         </div>
 
+        <div class="bg-black pb-2 text-white float-right mt-4 max-w-sm">
+          <h3 class="text-1.7r text-primary border-b-2 border-gray-500  px-4 pt-2 pb-2">
+            <span class="text-white-50">estimated total.....</span>	
+            $250/mo
+          </h3>
+          <div class="text-lg px-4 my-2 text-right">
+            <span class="text-white-50">(does not include sales tax, fill in country
+              and region below)</span>
+          </div>
+        </div>
+
+
+        <div class="bg-black pb-2 text-white float-right mt-4 text-right max-w-sm">
+          <h3 class="text-1.7r border-b-2 border-gray-500  px-4 pt-2 pb-2 text-opacity-70 text-white ">
+            setup timeframe
+          </h3>
+          <div class="text-lg px-4 my-2 text-white text-opacity-70">
+            Please allow our engineers <span class="font-bold text-primary text-opacity-100">2 business days</span> to setup & test your deployment. 
+          </div>
+        </div>
+
+        <div></div>
+
         <div class="float-right">
-          <div class="bg-gray-200 rounded-sm p-4 my-3">
-            <input class="px-2 py-1.5" placeholder="First name" /><br>
+          <div class="bg-gray-200 rounded-sm p-4 my-3 text-lg">
+            <input class="px-2 py-1.5 my-2" placeholder="First name" /><br>
             <input class="px-2 py-1.5 my-2" placeholder="Email name" /><br>
-            <input class="px-2 py-1.5" placeholder="Password" />
+            <input class="px-2 py-1.5 my-2" placeholder="Phone" /><br>
+            <input class="px-2 py-1.5 my-2" placeholder="Country" /><br>
+            <input class="px-2 py-1.5 my-2" placeholder="State/Province/Region" /><br>
+            <input class="px-2 py-1.5 my-2" placeholder="Password" />
           </div>
           <div class="text-right">
             {@html deployBtn()}
           </div>
-          <div class="text-right">
-            {@html btn('mt-2', 'See Pricing') }
-          </div>
+      
           <p class="text-right mt-10">Prefer fully managed?<br>
             Try our 
             <b>Enterprise</b> solution. 
@@ -87,12 +114,6 @@
           <div class="text-right">
             {@html btn('bg-white border-black hover:bg-blue-500 hover:text-white hover:no-underline', 'Contact Sales') }
           </div>
-          <p class="text-right mt-10 opacity-50">
-            Open source.<br> 
-            Trusted by enterprise.
-          </p>
-          <img style="width:170px;" src="/Blockstream-logo.svg"
-              class="float-right" /> 
         </div>
 
       </div>
@@ -104,21 +125,21 @@
           <div class="text-black-80 font-light mt-2 text-3xl">PRICE <span class="text-base">/MO</span></div>
         </div>
         <div>
-          <div class="COIN-yellow-row flex">
-            <span class="w-1/5">Bitcoin</span>
-            <span class="w-3/5 font-normal text-center">Pruned Node + Coinos Layer</span>
-            <span class="w-1/5 text-right pr-4">$150</span>
-          </div>
-          <div class="COIN-yellow-row flex">
-            <span class="w-1/5">Lightning</span>
-            <span class="w-3/5 font-normal text-center">Node + 20x Channels</span>
-            <span class="w-1/5 text-right pr-2">$100</span>
-          </div>
-          <div class="COIN-yellow-row flex">
-            <span class="w-1/5">Liquid</span>
-            <span class="w-3/5 font-normal text-center">Elements Core</span>
-            <span class="w-1/5 text-right pr-2">$50</span>
-          </div>
+          <SelectableItem 
+            title="Bitcoin" 
+            description="Pruned Node + Coinos Layer"
+            css="pl-12">
+          </SelectableItem>
+          <SelectableItem 
+            title="Lightning" 
+            description="Node + 20x Channels"
+            price="+$100">
+          </SelectableItem>
+          <SelectableItem 
+            title="Liquid" 
+            description="Elements Core"
+            price="+$50">
+          </SelectableItem>
         </div>
       </div>
 
@@ -129,26 +150,27 @@
           <div class="text-black-80 font-light mt-2 text-3xl">PRICE <span class="text-base">/MO</span></div>
         </div>
         <div>
-          <div class="COIN-yellow-row flex">
-            <span class="w-2/6">Crypto Wallet</span>
-            <span class="w-2/6 font-normal text-center opacity-30">(included)</span>
-            <span class="w-2/6 text-right pr-2">+ $100</span>
-          </div>
-          <div class="COIN-yellow-row flex">
-            <span class="w-2/6">Bitcoin Exchange</span>
-            <span class="w-2/6 font-normal text-center"></span>
-            <span class="w-2/6 text-right pr-2">+ $150</span>
-          </div>
-          <div class="COIN-yellow-row flex">
-            <span class="w-2/6">Token Exchange</span>
-            <span class="w-2/6 font-normal text-center"></span>
-            <span class="w-2/6 text-right pr-2">+ $150</span>
-          </div>
-          <div class="COIN-yellow-row flex">
-            <span class="w-2/6">NFT Checkout</span>
-            <span class="w-2/6 font-normal text-center"></span>
-            <span class="w-2/6 text-right pr-2">+ $100</span>
-          </div>
+          <SelectableItem 
+            title="Crypto Wallet" 
+            description="(included)"
+            css="font-light"
+            price="+$100">
+          </SelectableItem>
+
+          <SelectableItem 
+            title="Bitcoin Exchange" 
+            price="+$150">
+          </SelectableItem>
+
+          <SelectableItem 
+            title="Token Exchange" 
+            price="+$150">
+          </SelectableItem>
+
+          <SelectableItem 
+            title="NFT Checkout" 
+            price="+$100">
+          </SelectableItem>
         </div>
       </div>
 
@@ -160,32 +182,33 @@
           <div class="text-black-80 font-light mt-2 text-3xl">PRICE <span class="text-base">/MO</span></div>
         </div>
         <div>
-          <div class="COIN-yellow-row flex">
-            <span class="w-2/6">Crypto Wallet</span>
-            <span class="flex-auto"></span>
-            <span class="w-2/6 text-right pr-2">+ $30</span>
-          </div>
-          <div class="COIN-yellow-row flex">
-            <span class="w-2/6">Bitcoin Exchange</span>
-            <span class="flex-auto"></span>
-            <span class="w-2/6 text-right pr-2">+ $50</span>
-          </div>
-          <div class="COIN-yellow-row flex">
-            <span class="w-2/6">Token Exchange</span>
-            <span class="flex-auto"></span>
-            <span class="w-2/6 text-right pr-2">+ $60</span>
-          </div>
-          <div class="COIN-yellow-row flex">
-            <span class="w-2/6">NFT Checkout</span>
-            <span class="flex-auto"></span>
-            <span class="w-2/6 text-right pr-2">+ $75</span>
-          </div>
-          <div class="COIN-yellow-row flex">
-            <span>Token Based 
-              Exclusive Access Area</span>
-            <span class="flex-auto"></span>
-            <span class="w-2/6 text-right pr-2">+ $25</span>
-          </div>
+
+          <SelectableItem 
+            title="Crypto Wallet" 
+            price="+$30">
+          </SelectableItem>
+
+          <SelectableItem 
+            title="Bitcoin Exchange" 
+            price="+$50">
+          </SelectableItem>
+
+          <SelectableItem 
+            title="Token Exchange" 
+            price="+$60">
+          </SelectableItem>
+
+          <SelectableItem 
+            title="NFT Checkout" 
+            price="+$75">
+          </SelectableItem>
+
+          <SelectableItem 
+            title="Token Based 
+            Exclusive Access Area" 
+            price="+$25">
+          </SelectableItem>
+
         </div>
       </div>
 
@@ -197,33 +220,32 @@
           <div class="text-black-80 font-light mt-2 text-3xl">PRICE <span class="text-base">/MO</span></div>
         </div>
         <div>
-          <div class="COIN-yellow-row flex">
-            <span>Updates/upgrades & patches</span>
-            <span class="flex-auto opacity-50 pl-4 font-light">(included)</span>
-            <span class="w-1/6 text-right pr-2">$0</span>
-          </div>
-          <div class="COIN-yellow-row flex">
-            <span>3 Hour Support Pack</span>
-            <span class="flex-auto"></span>
-            <span class="w-2/6 text-right pr-2">$360/mo</span>
-          </div>
-          <div class="COIN-yellow-row flex">
-            <span>9 Hour Support Pack</span>
-            <span class="flex-auto"></span>
-            <span class="w-2/6 text-right pr-2">$900/mo</span>
-          </div>
-          <div class="COIN-yellow-row flex">
-            <span>Ad Hoc Support</span>
-            <span class="flex-auto"></span>
-            <span class="w-2/6 text-right pr-2">$200/hr</span>
-          </div>
-          <div class="COIN-yellow-row flex">
-            <span>Custom Development<br>
-              <span class="font-light">(min 9 hour commitment)</span> 
-            </span>
-            <span class="flex-auto"></span>
-            <span class="w-2/6 text-right pr-2">$150/hr</span>
-          </div>
+          <SelectableItem 
+            title="Updates/upgrades & patches" 
+            description="(included)">
+          </SelectableItem>
+
+          <SelectableItem 
+            title="3 Hour Support Pack" 
+            price="$360/mo">
+          </SelectableItem>
+          
+          <SelectableItem 
+            title="9 Hour Support Pack" 
+            price="$900/mo">
+          </SelectableItem>
+
+          <SelectableItem 
+            title="Ad Hoc Support" 
+            price="$200/mo">
+          </SelectableItem>
+
+          <SelectableItem 
+            title="Custom Development" 
+            description="(min 9 hour commitment)"
+            price="$150/mo">
+          </SelectableItem>
+
         </div>
       </div>
     </div>
@@ -246,10 +268,5 @@
 		@apply mb-4;
 	}
 
-  .COIN-yellow-row {
-    @apply  bg-opacity-10 p-3 pt-5 border-b-4 border-gray-100 text-xl font-bold;
-  }
-  .COIN-selected {
-    @apply border-primary bg-primary bg-opacity-10
-  }
+
 </style>
