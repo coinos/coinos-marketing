@@ -1,6 +1,6 @@
 <script>
   import { page } from "$app/stores"
-	let about, enterprise, deploy, menuWasToggled, menuIsOpen, currentPage
+	let about, enterprise, deploy, deployNft, menuWasToggled, menuIsOpen, currentPage
 	const toggleMenu = () => menuWasToggled = true 
   $: { //re-render: 
 		if(currentPage !== $page.path) {
@@ -9,7 +9,8 @@
 			menuIsOpen = false
 			about = $page.path === '/about';
 			enterprise = $page.path === '/enterprise';
-			deploy = $page.path === '/deploy' || $page.path === '/pricing' ;
+			deploy = $page.path === '/deploy' || $page.path === '/pricing';
+			deployNft =  $page.path === '/deploy-nft'
 		}
 		if(menuWasToggled) {
 			menuIsOpen = menuIsOpen ? false : true 
@@ -41,7 +42,7 @@
 				<span class="text-white ">coin</span>os
 			</a>
 			<div class="flex mt-5 NAVLINKS text-lg ml-6">
-        <a class:deploy class="hidden sm:block border-b-4 border-secondary border-opacity-0 
+        <a class:deploy class:deployNft class="hidden sm:block border-b-4 border-secondary border-opacity-0 
 																	 text-opacity-90 text-white
 															     hover:text-opacity-100 transition duration-100 ease-in-out"
 					 href="/deploy">Deploy</a>				
@@ -133,6 +134,8 @@
 
   .deploy, .about { @apply border-primary border-opacity-100 text-opacity-100 } 
   .enterprise { @apply border-green-300 border-opacity-100 text-opacity-100 } 
+
+	.deployNft { @apply border-green-300 }
 
 	.card {
 		@apply rounded;
