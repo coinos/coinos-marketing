@@ -98,6 +98,7 @@
 		<div class="w-full lg:w-1/4 mb-10">
 			<h4 class="font-bold mb-4">Follow Us</h4>
 			<ul class="list-none">
+				<li class="mb-2"><a href="https://coinos.medium.com/">Medium</a></li>
 				<li class="mb-2"><a href="https://twitter.com/coinoswallet">Twitter</a></li>
 				<li class="mb-2"><a href="https://t.me/coinos">Telegram</a></li>
 				<li class="mb-2"><a href="https://github.com/coinos">Github</a></li>
