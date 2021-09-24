@@ -46,15 +46,33 @@
     <!-- BODY -->
 
     <div class="pl-5 pr-10 mt-5 mx-auto max-w-1100px relative pb-5">
+      <div class="lg:flex">
 
-      <div class="border-l-8 border-gray-100 pl-3">
-        <h2 class="text-black text-2.25r">Open source.  Built on <span class="font-black">Bitcoin</span>.</h2>
-      </div>
+        <div class="lg:w-2/3">
+          <div class="border-l-8 border-gray-100 pl-3">
+            <h2 class="text-black text-2.25r">Open source.  Built on <span class="font-black">Bitcoin</span>.</h2>
+          </div>
+    
+          <div class="pl-5 max-w-3xl font-light text-lg">
+            <p>The revolution in cryptographic token tech would not have been possible for not the incredible community of open source developers who have made the Bitcoin protocol what it is now: a network that has forever changed the face of finance fuelling over <b class="font-bold">$2B</b> of world trading volume everyday.</p>
+    
+            <p>Coinos was an early innovator in Bitcoin - and today our web wallet product already powers a fraction of that billion+ world trading volume - thanks to our implementation of another revolutionary tech that was built on top of Bitcoin: the <a href="https://lightning.network/" target="_blank">Lightning network</a> - to move that volume for our users instantly and for a per transaction fee of less than a penny. </p>
+          </div>
+        </div>
 
-      <div class="pl-5 max-w-3xl font-light text-lg">
-        <p>The revolution in cryptographic token tech would not have been possible for not the incredible community of open source developers who have made the Bitcoin protocol what it is now: a network that has forever changed the face of finance fuelling over <b class="font-bold">$2B</b> of world trading volume everyday.</p>
+        <div class="lg:w-1/3 lg:text-right bg-gray-100 pt-3 px-6 ml-5 lg:ml-12 pb-3 lg:pb-0">
+          <h2 class="text-green-600 text-2xl mt-3 font-bold">BLOG</h2>
+          <a class="block !text-black hover:!text-blue-500 mb-6" href="https://coinos.medium.com/video-content-creators-can-now-run-their-own-platform-using-bitcoin-based-nfts-6222b5eefd4f">
+            <h3 class="text-2xl ">Video Content Creators can now run their own platform using Bitcoin based NFTs</h3>
+            <span class="font-light">Aug 23</span>
+          </a>
 
-        <p>Coinos was an early innovator in Bitcoin - and today our web wallet product already powers a fraction of that billion+ world trading volume - thanks to our implementation of another revolutionary tech that was built on top of Bitcoin: the <a href="https://lightning.network/" target="_blank">Lightning network</a> - to move that volume for our users instantly and for a per transaction fee of less than a penny. </p>
+          <a class="block !text-black hover:!text-blue-500 mb-6" href="https://coinos.medium.com/the-first-white-label-nft-marketplace-and-its-all-bitcoin-based-372cfb798a70">
+            <h3 class="text-2xl ">The first white label NFT marketplace, and it’s all bitcoin based</h3>
+            <span class="font-light">Jul 31</span>
+          </a>
+
+        </div>
       </div>
 
     </div>
