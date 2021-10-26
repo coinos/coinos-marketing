@@ -1,4 +1,4 @@
-<div class="container px-12 mt-10 mx-auto">
+<div class="mx-auto max-w-1100px pt-10 pl-10 pr-7 pb-10">
 	<h1 class="mb-10">FAQ</h1>
 	<div class="flex">
 		<div class="xl:max-w-xl w-full">
