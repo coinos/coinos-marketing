@@ -110,6 +110,7 @@
 				<li class="mb-2"><a href="https://t.me/coinos">Support</a></li>
 				<li class="mb-2"><a href="/faq">FAQ</a></li>
 				<li class="mb-2"><a href="/about">About</a></li>
+				<li class="mb-2"><a href="/jobs">Jobs</a></li>
 			</ul>
 		</div>
 	</div>
