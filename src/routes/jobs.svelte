@@ -1,4 +1,4 @@
-<div class="mx-auto max-w-1100px pt-10 pl-10 pr-7 pb-[900px]">
+<div class="mx-auto max-w-1100px pt-10 pl-10 pr-7 pb-10" style="min-height:90vh;" >
 	<h1 class="mb-10 font-bold">Jobs</h1>
 	<div class="flex mt-8">
 		<div class=" max-w-4xl">
