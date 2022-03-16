@@ -1,6 +1,6 @@
 <script>
   import { page } from "$app/stores"
-	let about, enterprise, menuWasToggled, menuIsOpen, currentPage
+	let about, enterprise, community, menuWasToggled, menuIsOpen, currentPage
 	const toggleMenu = () => menuWasToggled = true 
   $: { //re-render: 
 		if(currentPage !== $page.url.pathname) {
@@ -8,10 +8,11 @@
 			menuIsOpen = false
 			about = $page.url.pathname === '/about';
 			enterprise = $page.url.pathname === '/enterprise';
+			community = $page.url.pathname === '/community';
 		}
-		if(menuWasToggled) {
-			menuIsOpen = menuIsOpen ? false : true 
-			menuWasToggled = false //< reset 
+		if (menuWasToggled) {
+			menuIsOpen = menuIsOpen ? false : true;
+			menuWasToggled = false; //< reset
 		}
 	}
 </script>
@@ -32,26 +33,38 @@
 	<script src="/js/index.bundle.js"></script>
 </svelte:head>
 
-<div class="header bg-secondary justify-center  pt-2 relative z-50"
-		 style="min-height: 80px;">
+<div class="header bg-secondary justify-center  pt-2 relative z-50" style="min-height: 80px;">
 	<div class="max-w-1100px	mx-auto flex pl-10 pr-7">
-			<a class="mr-5 text-2.5r text-primary" href="/">
-				<span class="text-white ">coin</span>os
-			</a>
-			<div class="flex mt-5 NAVLINKS text-lg ml-6">
-        <a class:enterprise class="hidden sm:block border-b-4 border-secondary border-opacity-0 
+		<a class="mr-5 text-2.5r text-primary" href="/">
+			<span class="text-white ">coin</span>os
+		</a>
+		<div class="flex mt-5 NAVLINKS text-lg ml-6">
+			<a
+				class:enterprise
+				class="hidden sm:block border-b-4 border-secondary border-opacity-0
 																	 text-opacity-90 text-white
 															     hover:text-opacity-100 transition duration-100 ease-in-out"
-					 href="/enterprise">Enterprise</a>				
-				<a class:about class="hidden sm:block border-b-4 border-secondary border-opacity-0
+				href="/enterprise">Enterprise</a
+			>
+			<a
+				class:about
+				class="hidden sm:block border-b-4 border-secondary border-opacity-0
 															text-opacity-90 text-white
 															hover:text-opacity-100 transition duration-100 ease-in-out"
-					 href="/about">About</a>
-			</div>
-			<div class="ml-auto flex mt-3 pt-1 my-auto">
-				<a
-					href="https://coinos.io/"
-					class="px-6 text-lg py-1 hidden md:block
+				href="/about">About</a
+			>
+			<a
+				class:community
+				class="hidden sm:block border-b-4 border-secondary border-opacity-0
+													text-opacity-90 text-white
+													hover:text-opacity-100 transition duration-100 ease-in-out"
+				href="/community">Community</a
+			>
+		</div>
+		<div class="ml-auto flex mt-3 pt-1 my-auto">
+			<a
+				href="https://coinos.io/"
+				class="px-6 text-lg py-1 hidden md:block
 							 text-opacity-90
 							 hover:text-opacity-100 transition duration-100 ease-in-out text-white">
 							 Login
@@ -63,26 +76,51 @@
 					class="text-black px-3 text-lg py-1 hidden rounded-md md:block
 							 border-white border-2 border-opacity-0
 								 transition duration-200 ease-in-out-back hover:bg-black hover:text-white
-			  			   hover:border-opacity-60">
-								 Register</a>
-			</div>
+			  			   hover:border-opacity-60"
+			>
+				Register</a
+			>
+		</div>
 
-			<div class="my-4 md:hidden cursor-pointer text-white" on:click={toggleMenu}>
-				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" fill="currentColor"></path></svg>
-			</div>
+		<div class="my-4 md:hidden cursor-pointer text-white" on:click={toggleMenu}>
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink"
+				aria-hidden="true"
+				role="img"
+				class="iconify iconify--ic"
+				width="32"
+				height="32"
+				preserveAspectRatio="xMidYMid meet"
+				viewBox="0 0 24 24"
+				><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" fill="currentColor" /></svg
+			>
+		</div>
 
-			<div class="{menuIsOpen ? 'md:hidden' : 'invisible'}
+		<div
+			class="{menuIsOpen ? 'md:hidden' : 'invisible'}
 									absolute right-3 text-white max-w-sm z-50
 									bg-secondary text-right"
-					 style="top:4.8rem;">
-        <a class="block sm:hidden py-6 px-5 hover:bg-white hover:bg-opacity-10" href="/enterprise">Enterprise</a>				
-				<a class="block sm:hidden py-6 px-5 hover:bg-white hover:bg-opacity-10" href="/about">About</a>
-				<a class="block py-6 px-6 hover:bg-white hover:bg-opacity-10" href="https://coinos.io/login">Login</a>
-				<a class="block py-6 px-6 -mr-2.5 hover:bg-white hover:bg-opacity-10" href="https://coinos.io/register">
-					<span class="bg-primary text-black rounded-md py-2 px-4">Register</span>
-				</a>
-			</div>
-
+			style="top:4.8rem;"
+		>
+			<a class="block sm:hidden py-6 px-5 hover:bg-white hover:bg-opacity-10" href="/enterprise"
+				>Enterprise</a
+			>
+			<a class="block sm:hidden py-6 px-5 hover:bg-white hover:bg-opacity-10" href="/about">About</a
+			>
+			<a class="block sm:hidden py-6 px-5 hover:bg-white hover:bg-opacity-10" href="/community"
+				>Community</a
+			>
+			<a class="block py-6 px-6 hover:bg-white hover:bg-opacity-10" href="https://coinos.io/login"
+				>Login</a
+			>
+			<a
+				class="block py-6 px-6 -mr-2.5 hover:bg-white hover:bg-opacity-10"
+				href="https://coinos.io/register"
+			>
+				<span class="bg-primary text-black rounded-md py-2 px-4">Register</span>
+			</a>
+		</div>
 	</div>
 </div>
 
@@ -92,7 +130,7 @@
 	<div class="max-w-1100px footer mx-auto flex flex-wrap text-white pt-12 px-10">
 		<div class="flex flex-col text-sm w-full lg:w-2/4 mb-10 order-last lg:order-first">
 			<a href="/"><img src="/coinos.svg" alt="logo" class="w-48" /></a>
-			<p class="mt-4">&copy;2021 Coinos Financial Corporation</p>
+			<p class="mt-4">&copy;2022 Coinos Financial Corporation</p>
 		</div>
 		<div class="w-full lg:w-1/4 mb-10">
 			<h4 class="font-bold mb-4">Follow Us</h4>
@@ -109,6 +147,7 @@
 				<li class="mb-2"><a href="https://t.me/coinos">Support</a></li>
 				<li class="mb-2"><a href="/faq">FAQ</a></li>
 				<li class="mb-2"><a href="/about">About</a></li>
+				<li class="mb-2"><a href="/community">Community</a></li>
 				<li class="mb-2"><a href="/jobs">Jobs</a></li>
 			</ul>
 		</div>
@@ -124,10 +163,18 @@
 		font-family: 'Roboto', sans-serif;
 	}
 
-  .NAVLINKS a { @apply mx-4 pb-5 }
+	.NAVLINKS a {
+		@apply mx-4 pb-5;
+	}
 
-  .deploy, .about { @apply border-primary border-opacity-100 text-opacity-100 } 
-  .enterprise { @apply border-green-300 border-opacity-100 text-opacity-100 } 
+	.deploy,
+	.about,
+	.community {
+		@apply border-primary border-opacity-100 text-opacity-100;
+	}
+	.enterprise {
+		@apply border-green-300 border-opacity-100 text-opacity-100;
+	}
 
 	.card {
 		@apply rounded;
@@ -138,13 +185,13 @@
 	}
 
 	.text-white-50 {
-		@apply text-opacity-50 text-white; 
+		@apply text-opacity-50 text-white;
 	}
 	.text-black-70 {
-		@apply text-opacity-50 text-black; 
+		@apply text-opacity-50 text-black;
 	}
 
-	::selection { 
-		@apply bg-primary text-black; 
+	::selection {
+		@apply bg-primary text-black;
 	}
 </style>
