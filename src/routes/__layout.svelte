@@ -3,12 +3,11 @@
 	let about, enterprise, menuWasToggled, menuIsOpen, currentPage
 	const toggleMenu = () => menuWasToggled = true 
   $: { //re-render: 
-		if(currentPage !== $page.path) {
-			//(on first page load or page change)
-			currentPage = $page.path 
+		if(currentPage !== $page.url.pathname) {
+			currentPage = $page.url.pathname 
 			menuIsOpen = false
-			about = $page.path === '/about';
-			enterprise = $page.path === '/enterprise';
+			about = $page.url.pathname === '/about';
+			enterprise = $page.url.pathname === '/enterprise';
 		}
 		if(menuWasToggled) {
 			menuIsOpen = menuIsOpen ? false : true 
@@ -59,8 +58,8 @@
 				</a>
 				<a
 					href="https://coinos.io/register"
-          class:bg-primary={$page.path !== '/enterprise'}
-          class:bg-green-400={$page.path === '/enterprise'}
+          class:bg-primary={$page.url.pathname !== '/enterprise'}
+          class:bg-green-400={$page.url.pathname === '/enterprise'}
 					class="text-black px-3 text-lg py-1 hidden rounded-md md:block
 							 border-white border-2 border-opacity-0
 								 transition duration-200 ease-in-out-back hover:bg-black hover:text-white

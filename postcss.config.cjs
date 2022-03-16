@@ -1,6 +1,14 @@
-module.exports = () => ({
+const mode = process.env.NODE_ENV;
+const dev = mode === "development";
+
+module.exports = {
   plugins: [
-    require("tailwindcss")("./tailwind.config.cjs"),
+    require("tailwindcss"),
     require("autoprefixer"),
+    require("tailwindcss/nesting")(require("postcss-nesting")),
+    !dev &&
+      require("cssnano")({
+        preset: "default",
+      }),
   ],
-});
+};

@@ -1,0 +1,31 @@
+	@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
+
+	body {
+		font-family: 'Roboto', sans-serif;
+	}
+
+  .NAVLINKS a { @apply mx-4 pb-5 }
+
+  .deploy, .about { @apply border-primary border-opacity-100 text-opacity-100 } 
+  .enterprise { @apply border-green-300 border-opacity-100 text-opacity-100 } 
+
+	.card {
+		@apply rounded;
+	}
+
+	.font-Poppins {
+		font-family: 'Poppins', serif;
+	}
+
+	.text-white-50 {
+		@apply text-opacity-50 text-white; 
+	}
+	.text-black-70 {
+		@apply text-opacity-50 text-black; 
+	}
+
+	::selection { 
+		@apply bg-primary text-black; 
+	}
