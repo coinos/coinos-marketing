@@ -2,7 +2,7 @@
 	import Twitter from '../icons/twitter.svelte';
 	import Telegram from '../icons/telegram.svelte';
 	import GitHub from '../icons/github.svelte';
-	import Medium from '../icons/medium.svelte';
+	import Medium from '../icons/medium.png';
 	import Avatar from '../components/avatar.svelte';
 </script>
 
@@ -37,9 +37,7 @@
 				href="https://coinos.medium.com/"
 				target="_blank"
 				class="border-4 border-opacity-0 hover:border-opacity-100 rounded-full border-primary p-2"
-				rel="noreferrer"
-			>
-				<Medium slot="icon" /></a
+				rel="noreferrer"><img src={Medium} alt="Medium" class="w-12 h-12 rounded-full" /></a
 			>
 		</div>
 	</div>
@@ -67,7 +65,7 @@
 	</div>
 	<div class="flex justify-center items-center">
 		<button
-			class="bg-black text-white p-3 border-2 border-primary border-opacity-0 rounded-md
+			class="bg-black text-white p-3 border-4 border-primary border-opacity-0 rounded-md
   hover:border-opacity-100"
 		>
 			<a href="https://coinos.io/donate">
@@ -81,6 +79,16 @@
 			<Avatar link="https://getalby.com" image="/static/avatars/alby.jpg" name="Alby" />
 
 			<Avatar link="https://bleskomat.com" image="/static/avatars/bleskomat.jpg" name="Bleskomat" />
+			<Avatar
+				link="https://github.com/coinos/coinoslib"
+				image="/static/avatars/coinoslib.jpeg"
+				name="coinoslib"
+			/>
+			<Avatar
+				link="https://github.com/BTCTranslator/coinosTelegramBot"
+				image="/static/avatars/telegrambot.png"
+				name="coinosTelegramBot"
+			/>
 			<Avatar
 				link="https://tokenocean.io"
 				image="/static/avatars/tokenocean.jpg"
