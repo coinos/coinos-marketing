@@ -13,7 +13,7 @@
 			Since it's creation in 2012 coinos has developed a dedicated and fun community of bitcoiners
 			committed to bringing bitcoin to the world!
 		</p>
-		<div class="flex justify-center items-center space-x-4">
+		<div class="flex flex-wrap justify-center items-center md:space-x-4">
 			<a
 				href="https://github.com/coinos"
 				target="_blank"
