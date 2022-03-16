@@ -1,11 +1,12 @@
 <script>
-  import { page } from "$app/stores"
-	let about, enterprise, community, menuWasToggled, menuIsOpen, currentPage
-	const toggleMenu = () => menuWasToggled = true 
-  $: { //re-render: 
-		if(currentPage !== $page.url.pathname) {
-			currentPage = $page.url.pathname 
-			menuIsOpen = false
+	import { page } from '$app/stores';
+	let about, enterprise, community, menuWasToggled, menuIsOpen, currentPage;
+	const toggleMenu = () => (menuWasToggled = true);
+	$: {
+		//re-render:
+		if (currentPage !== $page.url.pathname) {
+			currentPage = $page.url.pathname;
+			menuIsOpen = false;
 			about = $page.url.pathname === '/about';
 			enterprise = $page.url.pathname === '/enterprise';
 			community = $page.url.pathname === '/community';
@@ -15,6 +16,9 @@
 			menuWasToggled = false; //< reset
 		}
 	}
+
+	const date = new Date();
+	const year = date.getFullYear();
 </script>
 
 <svelte:head>
@@ -66,14 +70,15 @@
 				href="https://coinos.io/"
 				class="px-6 text-lg py-1 hidden md:block
 							 text-opacity-90
-							 hover:text-opacity-100 transition duration-100 ease-in-out text-white">
-							 Login
-				</a>
-				<a
-					href="https://coinos.io/register"
-          class:bg-primary={$page.url.pathname !== '/enterprise'}
-          class:bg-green-400={$page.url.pathname === '/enterprise'}
-					class="text-black px-3 text-lg py-1 hidden rounded-md md:block
+							 hover:text-opacity-100 transition duration-100 ease-in-out text-white"
+			>
+				Login
+			</a>
+			<a
+				href="https://coinos.io/register"
+				class:bg-primary={$page.url.pathname !== '/enterprise'}
+				class:bg-green-400={$page.url.pathname === '/enterprise'}
+				class="text-black px-3 text-lg py-1 hidden rounded-md md:block
 							 border-white border-2 border-opacity-0
 								 transition duration-200 ease-in-out-back hover:bg-black hover:text-white
 			  			   hover:border-opacity-60"
@@ -130,7 +135,7 @@
 	<div class="max-w-1100px footer mx-auto flex flex-wrap text-white pt-12 px-10">
 		<div class="flex flex-col text-sm w-full lg:w-2/4 mb-10 order-last lg:order-first">
 			<a href="/"><img src="/coinos.svg" alt="logo" class="w-48" /></a>
-			<p class="mt-4">&copy;2022 Coinos Financial Corporation</p>
+			<p class="mt-4">&copy;{year} Coinos Financial Corporation</p>
 		</div>
 		<div class="w-full lg:w-1/4 mb-10">
 			<h4 class="font-bold mb-4">Follow Us</h4>
