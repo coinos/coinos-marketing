@@ -94,7 +94,7 @@
 			<Avatar link="https://liquid.net" image="/static/avatars/liquid.jpg" name="Liquid Network" />
 		</div>
 	</div>
-	<div>
+	<div class="w-full xl:w-1/2 mx-auto">
 		<h2 class="text-3xl text-center">Project Contributors</h2>
 		<div class="flex flex-wrap justify-center items-center">
 			<Avatar
