@@ -67,7 +67,7 @@
 				</li>
 				<li>Deposits and withdrawals remain unaffected at zero fees</li>
 				<li>
-					A small 1% fee will also help Coinos development continue, thank you for using our
+					This small 1% fee will also help Coinos development continue, thank you for using our
 					service!
 				</li>
 			</ul>
