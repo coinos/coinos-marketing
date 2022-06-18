@@ -1,17 +1,19 @@
 <script>
 	import Cash from '../icons/cash.svelte';
 	import Computer from '../icons/computer.svelte';
-	import Ticket from '../icons/ticket.svelte';
+	import Fee from '../icons/fee.svelte';
 	import Card from '../components/card.svelte';
-	import ContactSalesBtn from '../components/contact-sales-btn.svelte'; 
+	import ContactSalesBtn from '../components/contact-sales-btn.svelte';
 </script>
 
 <div style="min-height:90vh;">
 	<div class="bg-black relative" style="">
-		<div class="border-white border-opacity-20 border-t-4 z-50 relative"></div>
-    <div id="SLIDES" class="text-white max-w-1100px mx-auto pl-10 pr-7 relative min-h-500px z-0 sm:min-h-430px">
-		</div>
-		<div class="border-t-4" style="border-color:darkgray;"></div>
+		<div class="border-white border-opacity-20 border-t-4 z-50 relative" />
+		<div
+			id="SLIDES"
+			class="text-white max-w-1100px mx-auto pl-10 pr-7 relative min-h-500px z-0 sm:min-h-430px"
+		/>
+		<div class="border-t-4" style="border-color:darkgray;" />
 	</div>
 
 	<div class="max-w-1100px mx-auto mt-10 md:grid lg:gap-4 grid-cols-3">
@@ -21,8 +23,8 @@
 
 			<ul>
 				<li>
-					No need to download a privacy invasive app or trust any American app store. Login and use us
-					from any internet enabled device
+					No need to download a privacy invasive app or trust any American app store. Login and use
+					us from any internet enabled device
 				</li>
 				<li>
 					We uniquely offer custodial and non-custodial options making it easy for newbies to get
@@ -51,24 +53,22 @@
 			</ul>
 		</Card>
 		<Card>
-			<Ticket slot="icon" />
-			<b slot="title">NFT Marketplace</b>
+			<Fee slot="icon" />
+			<b slot="title">Low fees</b>
 			<ul>
+				<li>Coinos operated it's first 10 years without charging a single satoshi in fees</li>
 				<li>
-					Under 3 cents to mint tokens for art and other assets, compared to over $50 USD per item in
-					other popular market places
+					A 1% swap fee has recently been added for exchanges between the on-chain, lightning and
+					Liquid layers
 				</li>
 				<li>
-					Your company branding and logos on the website, along with your ideal look, feel, and
-					experience
+					This is to help manage the costs of keeping each layer balanced with funds to create a
+					seemless user experience
 				</li>
+				<li>Deposits and withdrawals remain unaffected at zero fees</li>
 				<li>
-					Bitcoin/Liquid Network based, not Ethereum or other altcoins that are slow, expensive, or
-					may disappear
-				</li>
-				<li>
-					A few use cases we have experience with: art, event tickets, physical assets, luxury goods,
-					celebrity / brands
+					A small 1% fee will also help Coinos development continue, thank you for using our
+					service!
 				</li>
 			</ul>
 		</Card>
@@ -76,15 +76,17 @@
 
 	<div class="max-w-1100px mx-auto">
 		<div class="px-12 mt-12">
-			<h2 class="text-black text-3xl">Get your business on the <span class="font-black">blockchain today</span>.</h2>
+			<h2 class="text-black text-3xl">
+				Get your business on the <span class="font-black">Bitcoin standard today</span>.
+			</h2>
 			<div class="mt-7 flex">
-				<ContactSalesBtn></ContactSalesBtn>
+				<ContactSalesBtn />
 			</div>
 		</div>
 	</div>
 
-	<div class="mt-20"></div>
-</div>	
+	<div class="mt-20" />
+</div>
 
 <style>
 	p {

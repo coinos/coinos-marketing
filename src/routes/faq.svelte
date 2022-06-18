@@ -18,7 +18,7 @@
 				the dollar, the 2nd decimal place.
 			</p>
 
-			<p>$0.01 is a penny, to the dollar B0.0000001 is a satoshi, to a bitcoin</p>
+			<p>$0.01 is a penny, to the dollar B0.0000001 is a satoshi, to a bitcoin.</p>
 
 			<p>
 				A final example, it makes more sense to tell someone you have 10,452 sats instead of B

@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	let about, enterprise, community, menuWasToggled, menuIsOpen, currentPage;
+	let about, community, menuWasToggled, menuIsOpen, currentPage;
 	const toggleMenu = () => (menuWasToggled = true);
 	$: {
 		//re-render:
@@ -8,7 +8,6 @@
 			currentPage = $page.url.pathname;
 			menuIsOpen = false;
 			about = $page.url.pathname === '/about';
-			enterprise = $page.url.pathname === '/enterprise';
 			community = $page.url.pathname === '/community';
 		}
 		if (menuWasToggled) {
@@ -44,13 +43,6 @@
 		</a>
 		<div class="flex mt-5 NAVLINKS text-lg ml-6">
 			<a
-				class:enterprise
-				class="hidden sm:block border-b-4 border-secondary border-opacity-0
-																	 text-opacity-90 text-white
-															     hover:text-opacity-100 transition duration-100 ease-in-out"
-				href="/enterprise">Enterprise</a
-			>
-			<a
 				class:about
 				class="hidden sm:block border-b-4 border-secondary border-opacity-0
 															text-opacity-90 text-white
@@ -76,9 +68,7 @@
 			</a>
 			<a
 				href="https://coinos.io/register"
-				class:bg-primary={$page.url.pathname !== '/enterprise'}
-				class:bg-green-400={$page.url.pathname === '/enterprise'}
-				class="text-black px-3 text-lg py-1 hidden rounded-md md:block
+				class="bg-primary text-black px-3 text-lg py-1 hidden rounded-md md:block
 							 border-white border-2 border-opacity-0
 								 transition duration-200 ease-in-out-back hover:bg-black hover:text-white
 			  			   hover:border-opacity-60"
@@ -108,9 +98,6 @@
 									bg-secondary text-right"
 			style="top:4.8rem;"
 		>
-			<a class="block sm:hidden py-6 px-5 hover:bg-white hover:bg-opacity-10" href="/enterprise"
-				>Enterprise</a
-			>
 			<a class="block sm:hidden py-6 px-5 hover:bg-white hover:bg-opacity-10" href="/about">About</a
 			>
 			<a class="block sm:hidden py-6 px-5 hover:bg-white hover:bg-opacity-10" href="/community"
@@ -176,9 +163,6 @@
 	.about,
 	.community {
 		@apply border-primary border-opacity-100 text-opacity-100;
-	}
-	.enterprise {
-		@apply border-green-300 border-opacity-100 text-opacity-100;
 	}
 
 	.card {

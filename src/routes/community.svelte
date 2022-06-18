@@ -122,11 +122,6 @@
 				name="TsuiAnthonYVR"
 			/>
 			<Avatar
-				link="https://github.com/ahopk127"
-				image="/static/avatars/ahopk127.png"
-				name="ahopk127"
-			/>
-			<Avatar
 				link="https://github.com/alexmillar"
 				image="/static/avatars/alexmillar.jpeg"
 				name="alexmillar"
@@ -142,21 +137,22 @@
 				image="/static/avatars/infertux.jpeg"
 				name="infertux"
 			/>
-		</div>
-	</div>
-	<div>
-		<h2 class="text-3xl text-center">Project Members</h2>
-		<div class="flex flex-wrap justify-center items-center">
-			<Avatar
-				link="https://github.com/improvethings"
-				image="/static/avatars/improvethings.jpeg"
-				name="improvethings"
-			/>
+			<Avatar link="https://github.com/rikur" image="/static/avatars/rikur.png" name="rikur" />
 			<Avatar
 				link="https://github.com/drschwabe"
 				image="/static/avatars/drschwabe.png"
 				name="drschwabe"
 			/>
+			<Avatar
+				link="https://github.com/improvethings"
+				image="/static/avatars/improvethings.jpeg"
+				name="improvethings"
+			/>
+		</div>
+	</div>
+	<div>
+		<h2 class="text-3xl text-center">Project Members</h2>
+		<div class="flex flex-wrap justify-center items-center">
 			<Avatar
 				link="https://github.com/secondl1ght"
 				image="/static/avatars/secondl1ght.png"
@@ -167,7 +163,11 @@
 				image="/static/avatars/mabdullahabid.jpeg"
 				name="mabdullahabid"
 			/>
-			<Avatar link="https://github.com/rikur" image="/static/avatars/rikur.png" name="rikur" />
+			<Avatar
+				link="https://github.com/ahopk127"
+				image="/static/avatars/ahopk127.png"
+				name="ahopk127"
+			/>
 		</div>
 	</div>
 	<div>

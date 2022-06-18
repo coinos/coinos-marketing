@@ -1,11 +1,11 @@
-<div class="border-primary border-t-4 border-opacity-70"></div>
+<div class="border-primary border-t-4 border-opacity-70" />
 <div class="mx-auto max-w-1100px pt-10 pl-10 pr-7">
 	<h1 class="mb-10">About</h1>
 	<div class=" max-w-xl">
 		<p>
 			Coinos is an open source bitcoin web wallet, point of sale, ecommerce marketplace and exchange
-			platform. Development started in Vancouver in September 2012 as a way to provide local merchants
-			with a convenient way to accept bitcoin payments.
+			platform. Development started in Vancouver in September 2012 as a way to provide local
+			merchants with a convenient way to accept bitcoin payments.
 		</p>
 
 		<p>
@@ -48,28 +48,12 @@
 			Intra-account transfers between custodial wallets of different users on our server are
 			completely free, instant, and unlimited.
 		</p>
-
 	</div>
 </div>
 <div class="max-w-1100px mx-auto pl-10 pr-7 pb-12">
-	<h2 class="mt-12 font-bold text-3xl">Our team</h2>
+	<h2 class="mt-12 font-bold text-3xl">The founder</h2>
 
-	<div class="flex flex-wrap md:grid lg:grid lg:grid-cols-2 mx-auto mt-6">
-		<div class="max-w-md">
-			<img src="/kris.jpg" class="mb-4 w-full" alt="Kris Constable" />
-			<h4 class="text-2xl">Kris Constable</h4>
-			<h4 class="text-lg mb-8">Chief Executive Officer</h4>
-			<ul>
-				<li>Professionally involved in bitcoin/blockchain first in Jan 2014</li>
-				<li>Global Security Expert for Canada's biggest company</li>
-				<li>
-					International Trainer on Privacy; Investigator & Advisor to privacy regulator since 2005
-				</li>
-				<li>Founder of IDVPN.ca, unique privacy centric KYC/AML/CTF compliance platform</li>
-				<li>Over 15 years founding companies, advising companies, and leading teams</li>
-				<li>Volunteer, humanitarian, iconoclast, perpetually curious</li>
-			</ul>
-		</div>
+	<div class="mx-auto mt-6">
 		<div class="max-w-md mt-12 lg:mt-0">
 			<img src="/adam.jpg" class="mb-4 w-full" alt="Adam Soltys" />
 			<h4 class="text-2xl">Adam Soltys</h4>

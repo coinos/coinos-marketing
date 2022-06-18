@@ -9,7 +9,7 @@
 		><img
 			src={image}
 			alt="avatar"
-			class="rounded-full w-32 border-2 border-opacity-0 hover:border-opacity-100 border-primary"
+			class="rounded-full w-28 border-2 border-opacity-0 hover:border-opacity-100 border-primary"
 		/></a
 	>
 	<p class="text-center font-medium">{name}</p>

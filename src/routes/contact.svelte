@@ -1,19 +1,24 @@
-
 <div style="min-height: 90vh;">
 	<div class="mx-auto max-w-1100px mt-10 pl-10 pr-7">
 		<h1 class="mb-10">Contact Sales</h1>
 		<div class=" max-w-xl">
 			<p>
-				Coinos offers complete custom design &amp; build consulting for leveraging our open source technology &amp; expertise to develop innovative Bitcoin &amp; NFT solutions.
+				Coinos offers complete custom design &amp; build consulting for leveraging our open source
+				technology &amp; expertise to develop innovative Bitcoin solutions.
 			</p>
 
-			<p>We are here to work with you! Tell us more about your next exciting project or opportunity below.</p>
+			<p>
+				We are here to work with you! Tell us more about your next exciting project or opportunity
+				below.
+			</p>
 		</div>
 	</div>
-	
+
 	<div class="mx-auto max-w-1100px mt-10">
 		<div class="max-w-2xl pl-10 pr-7 pb-12">
-			<a class="text-lg font-bold hover:text-blue-600" href="mailto:contact@coinos.io">contact@coinos.io</a>
+			<a class="text-lg font-bold hover:text-blue-600" href="mailto:contact@coinos.io"
+				>contact@coinos.io</a
+			>
 		</div>
 	</div>
 </div>
