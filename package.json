@@ -2,7 +2,7 @@
 	"name": "~TODO~",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "concurrently 'svelte-kit dev --port 3007' 'cd src/routes_non-svelte; npm run watch'",
+		"dev": "concurrently 'vite dev --port 3007' 'cd src/routes_non-svelte; npm run watch'",
 		"build": "npm run build:ns; svelte-kit build",
 		"build:ns": "cd src/routes_non-svelte; npm run compile false true",
 		"preview": "svelte-kit preview",
@@ -27,7 +27,8 @@
 		"prettier-plugin-svelte": "^2.6.0",
 		"svelte": "^3.46.4",
 		"svelte-preprocess": "^4.10.4",
-		"tailwindcss": "3"
+		"tailwindcss": "3",
+		"vite": "^2.9.14"
 	},
 	"type": "module",
 	"dependencies": {
