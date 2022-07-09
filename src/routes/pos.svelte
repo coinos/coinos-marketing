@@ -78,7 +78,7 @@
 				You are now part of the <strong>bitcoin circular economy</strong>, the only thing left to do
 				is <strong>HODL</strong> onto those bitcoin. It is recommended for long-term storage to
 				withdraw your bitcoin from the coinos platform and put them onto a
-				<strong>hardware wallet</strong>. A few options of trusted hardware wallets can be found
+				<strong>hardware wallet</strong>. A few options for trusted hardware wallets can be found
 				below.
 			</p>
 			<ul class="list-disc ml-10 mt-4">
