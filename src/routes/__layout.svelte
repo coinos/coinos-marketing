@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	let about, community, menuWasToggled, menuIsOpen, currentPage;
+	let about, community, menuWasToggled, menuIsOpen, currentPage, pos;
 	const toggleMenu = () => (menuWasToggled = true);
 	$: {
 		//re-render:
@@ -9,6 +9,7 @@
 			menuIsOpen = false;
 			about = $page.url.pathname === '/about';
 			community = $page.url.pathname === '/community';
+			pos = $page.url.pathname === '/pos';
 		}
 		if (menuWasToggled) {
 			menuIsOpen = menuIsOpen ? false : true;
@@ -55,6 +56,13 @@
 													text-opacity-90 text-white
 													hover:text-opacity-100 transition duration-100 ease-in-out"
 				href="/community">Community</a
+			>
+			<a
+				class:pos
+				class="hidden sm:block border-b-4 border-secondary border-opacity-0
+													text-opacity-90 text-white
+													hover:text-opacity-100 transition duration-100 ease-in-out"
+				href="/pos">Point of Sale</a
 			>
 		</div>
 		<div class="ml-auto flex mt-3 pt-1 my-auto">
@@ -103,6 +111,9 @@
 			<a class="block sm:hidden py-6 px-5 hover:bg-white hover:bg-opacity-10" href="/community"
 				>Community</a
 			>
+			<a class="block sm:hidden py-6 px-5 hover:bg-white hover:bg-opacity-10" href="/pos"
+				>Point of Sale</a
+			>
 			<a class="block py-6 px-6 hover:bg-white hover:bg-opacity-10" href="https://coinos.io/login"
 				>Login</a
 			>
@@ -140,6 +151,7 @@
 				<li class="mb-2"><a href="/faq">FAQ</a></li>
 				<li class="mb-2"><a href="/about">About</a></li>
 				<li class="mb-2"><a href="/community">Community</a></li>
+				<li class="mb-2"><a href="/pos">Point of Sale</a></li>
 				<li class="mb-2"><a href="/jobs">Jobs</a></li>
 			</ul>
 		</div>
@@ -161,7 +173,8 @@
 
 	.deploy,
 	.about,
-	.community {
+	.community,
+	.pos {
 		@apply border-primary border-opacity-100 text-opacity-100;
 	}
 
