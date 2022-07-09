@@ -19,13 +19,13 @@
 					and tap on the
 					<strong>REGISTER NEW ACCOUNT</strong>
 					button.
-					<img src="/static/register.png" class="mt-4 rounded-lg" />
+					<img src="/static/register.png" alt="register" class="mt-4 rounded-lg" />
 				</li>
 				<li>
 					Enter a Username and Password into the input fields. <strong>IMPORTANT</strong>
 					- remember to write these down so you can access your account again in the future. When ready
 					tap on the <strong>REGISTER</strong> button.
-					<img src="/static/register-inputs.png" class="mt-4 rounded-lg" />
+					<img src="/static/register-inputs.png" alt="register-inputs" class="mt-4 rounded-lg" />
 				</li>
 				<li>
 					If you would like to secure your account further, you can tap on the
@@ -39,34 +39,34 @@
 			<ul class="space-y-5 list-disc">
 				<li>
 					Tap on the <strong>RECEIVE A PAYMENT</strong> button.
-					<img src="/static/receive.png" class="mt-4 rounded-lg" />
+					<img src="/static/receive.png" alt="receive" class="mt-4 rounded-lg" />
 				</li>
 				<li>
 					The
 					<strong>LIGHTNING</strong>
 					tab is already selected for you which is the preferred method of accepting bitcoin as a PoS
 					operator. Tap on the <strong>AMOUNT</strong> button to enter the amount of your sale.
-					<img src="/static/amount.png" class="mt-4 rounded-lg" />
+					<img src="/static/amount.png" alt="amount" class="mt-4 rounded-lg" />
 				</li>
 				<li>
 					You will likely want to select a fiat currency as the unit of account. To do this tap on
 					the
 					<strong>SAT</strong>
 					button and choose a currency from the list, like CAD for example.
-					<img src="/static/units.png" class="mt-4 rounded-lg" />
+					<img src="/static/units.png" alt="units" class="mt-4 rounded-lg" />
 				</li>
 				<li>
 					Once you have entered the correct amount, tap on the <strong>DONE</strong> button.
-					<img src="/static/enter-amount.png" class="mt-4 rounded-lg" />
+					<img src="/static/enter-amount.png" alt="enter-amount" class="mt-4 rounded-lg" />
 				</li>
 				<li>
 					Now tap on the <strong>SHOW QR</strong> button and turn the display towards the customer.
 					They can now scan the QR code with any bitcoin <strong>lightning</strong> wallet on their
 					mobile device to make the payment. If they would like to add a tip to the transaction,
 					they can tap on one of the pre-determined options or enter a custom amount.
-					<img src="/static/show-qr.png" class="mt-4 rounded-lg" />
-					<img src="/static/qr.png" class="mt-4 rounded-lg" />
-					<img src="/static/tip.png" class="my-4 rounded-lg" />
+					<img src="/static/show-qr.png" alt="show-qr" class="mt-4 rounded-lg" />
+					<img src="/static/qr.png" alt="qr" class="mt-4 rounded-lg" />
+					<img src="/static/tip.png" alt="tip" class="my-4 rounded-lg" />
 					You can enter this transaction as a cash sale to generate a receipt if the customer asks for
 					one.
 				</li>
