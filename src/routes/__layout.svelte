@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	let about, community, menuWasToggled, menuIsOpen, currentPage, pos;
+	let about, community, menuWasToggled, menuIsOpen, currentPage, pos, pay;
 	const toggleMenu = () => (menuWasToggled = true);
 	$: {
 		//re-render:
@@ -10,6 +10,7 @@
 			about = $page.url.pathname === '/about';
 			community = $page.url.pathname === '/community';
 			pos = $page.url.pathname === '/pos';
+			pay = $page.url.pathname === '/pay';
 		}
 		if (menuWasToggled) {
 			menuIsOpen = menuIsOpen ? false : true;
@@ -64,6 +65,13 @@
 													hover:text-opacity-100 transition duration-100 ease-in-out"
 				href="/pos">Point of Sale</a
 			>
+			<a
+				class:pay
+				class="hidden sm:block border-b-4 border-secondary border-opacity-0
+													text-opacity-90 text-white
+													hover:text-opacity-100 transition duration-100 ease-in-out"
+				href="/pay">Pay with Bitcoin</a
+			>
 		</div>
 		<div class="ml-auto flex mt-3 pt-1 my-auto">
 			<a
@@ -114,6 +122,9 @@
 			<a class="block sm:hidden py-6 px-5 hover:bg-white hover:bg-opacity-10" href="/pos"
 				>Point of Sale</a
 			>
+			<a class="block sm:hidden py-6 px-5 hover:bg-white hover:bg-opacity-10" href="/pay"
+				>Pay with Bitcoin</a
+			>
 			<a class="block py-6 px-6 hover:bg-white hover:bg-opacity-10" href="https://coinos.io/login"
 				>Login</a
 			>
@@ -152,6 +163,7 @@
 				<li class="mb-2"><a href="/about">About</a></li>
 				<li class="mb-2"><a href="/community">Community</a></li>
 				<li class="mb-2"><a href="/pos">Point of Sale</a></li>
+				<li class="mb-2"><a href="/pay">Pay with Bitcoin</a></li>
 				<li class="mb-2"><a href="/jobs">Jobs</a></li>
 			</ul>
 		</div>
@@ -174,7 +186,8 @@
 	.deploy,
 	.about,
 	.community,
-	.pos {
+	.pos,
+	.pay {
 		@apply border-primary border-opacity-100 text-opacity-100;
 	}
 

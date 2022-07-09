@@ -81,7 +81,7 @@
 				<strong>hardware wallet</strong>. A few options for trusted hardware wallets can be found
 				below.
 			</p>
-			<ul class="list-disc ml-10 mt-4">
+			<ul class="list-disc ml-10 my-4">
 				<li>
 					<a href="https://www.blockstream.com/jade/" rel="noreferrer" target="_blank"
 						>Blockstream Jade</a
@@ -93,13 +93,26 @@
 				</li>
 				<li><a href="https://shiftcrypto.ch/" rel="noreferrer" target="_blank">BitBox</a></li>
 			</ul>
+			<p>If you must cashout back into fiat, here are a couple options for doing so below.</p>
+			<ul class="list-disc ml-10 mt-4">
+				<li>
+					<a href="https://www.kraken.com/" rel="noreferrer" target="_blank"
+						>Kraken (international)</a
+					>
+				</li>
+				<li>
+					<a href="https://www.shakepay.com/" rel="noreferrer" target="_blank"
+						>Shakepay (Canada only)</a
+					>
+				</li>
+			</ul>
 		</li>
 		<li>
 			<h3 class="text-xl font-bold mb-2">Customer questions?</h3>
 			<p>
 				If you have customers asking how they can start buying your products or services with
 				bitcoin you can refer them to our <a
-					href=""
+					href="/pay"
 					rel="noreferrer"
 					class="text-primary bg-black p-1 rounded-md">customer guide</a
 				>.
