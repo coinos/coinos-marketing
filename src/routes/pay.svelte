@@ -97,13 +97,13 @@
 					and tap on the
 					<strong>REGISTER NEW ACCOUNT</strong>
 					button.
-					<img src="/static/register.png" alt="register" class="mt-4 rounded-lg" />
+					<img src="/register.png" alt="register" class="mt-4 rounded-lg" />
 				</li>
 				<li>
 					Enter a Username and Password into the input fields. <strong>IMPORTANT</strong>
 					- remember to write these down so you can access your account again in the future. When ready
 					tap on the <strong>REGISTER</strong> button.
-					<img src="/static/register-inputs.png" alt="register-inputs" class="mt-4 rounded-lg" />
+					<img src="/register-inputs.png" alt="register-inputs" class="mt-4 rounded-lg" />
 				</li>
 				<li>
 					If you would like to secure your account further, you can tap on the
@@ -113,13 +113,13 @@
 
 				<li>
 					Tap on the <strong>RECEIVE A PAYMENT</strong> button.
-					<img src="/static/receive.png" alt="receive" class="mt-4 rounded-lg" />
+					<img src="/receive.png" alt="receive" class="mt-4 rounded-lg" />
 				</li>
 				<li>
 					There are 2 main options for receiving bitcoin into your wallet, each is represented by
 					the
 					<strong>BITCOIN</strong> and <strong>LIGHTNING</strong> tabs.
-					<img src="/static/layer-options.png" alt="layer-options" class="my-4 rounded-lg" /> Which
+					<img src="/layer-options.png" alt="layer-options" class="my-4 rounded-lg" /> Which
 					method you use depends on the wallet that you are sending from. If that wallet gives you
 					the option then use <strong>LIGHTNING</strong>, otherwise <strong>BITCOIN</strong> will
 					also work. In either case you can tap on the <strong>SHOW QR</strong> button to easily
@@ -128,24 +128,24 @@
 					to tap on the
 					<strong>AMOUNT</strong>
 					button and enter the amount you wish to receive.
-					<img src="/static/amount.png" alt="amount" class="mt-4 rounded-lg" />
+					<img src="/amount.png" alt="amount" class="mt-4 rounded-lg" />
 				</li>
 				<li>
 					The default units for receiving on <strong>LIGHTNING</strong> are <strong>SAT</strong>
 					(satoshis) which are smaller units of bitcoin. You can toggle and switch to
 					<strong>BTC</strong>
 					if you would like.
-					<img src="/static/units-sat.png" alt="units" class="mt-4 rounded-lg" />
+					<img src="/units-sat.png" alt="units" class="mt-4 rounded-lg" />
 				</li>
 				<li>
 					Once you have entered the correct amount, tap on the <strong>DONE</strong> button.
-					<img src="/static/enter-amount-sat.png" alt="enter-amount" class="mt-4 rounded-lg" />
+					<img src="/enter-amount-sat.png" alt="enter-amount" class="mt-4 rounded-lg" />
 				</li>
 				<li>
 					This is how the display will look if you choose to scan a QR code. Simply scan this code
 					with the device you are using to send the bitcoin.
-					<img src="/static/show-qr.png" alt="show-qr" class="mt-4 rounded-lg" />
-					<img src="/static/qr-sat.png" alt="qr" class="my-4 rounded-lg" />
+					<img src="/show-qr.png" alt="show-qr" class="mt-4 rounded-lg" />
+					<img src="/qr-sat.png" alt="qr" class="my-4 rounded-lg" />
 					You should now have bitcoin in your coinos wallet and are ready to go out and spend it!
 				</li>
 			</ul>
@@ -158,12 +158,12 @@
 			</p>
 			<ul class="space-y-5 list-disc">
 				<li>Open your coinos wallet and tap on the <strong>SCAN</strong> button.</li>
-				<img src="/static/scan.png" alt="scan" class="mt-4 rounded-lg" />
+				<img src="/scan.png" alt="scan" class="mt-4 rounded-lg" />
 				<li>
 					Scan the QR code and the sale amount will be added automatically to your wallet and ready
 					to send.
 				</li>
-				<img src="/static/pay.png" alt="payment" class="mt-4 rounded-lg" />
+				<img src="/pay.png" alt="payment" class="mt-4 rounded-lg" />
 				<li>
 					Tap on the <strong>SEND</strong> button to complete the payment. You can optionally add a memo
 					for yourself to track your purchases.
