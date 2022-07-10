@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "concurrently 'vite dev --port 3007' 'cd src/routes_non-svelte; npm run watch'",
-		"build": "npm run build:ns; svelte-kit build",
+		"build": "npm run build:ns; vite build",
 		"build:ns": "cd src/routes_non-svelte; npm run compile false true",
 		"preview": "svelte-kit preview",
 		"lint": "prettier --check --plugin-search-dir=. .",
