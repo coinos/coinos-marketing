@@ -1,7 +1,0 @@
-{
-  "name": "index-js",
-  "scripts": {
-    "watch" : "node compile w", 
-    "compile" : "node compile"
-  }
-}

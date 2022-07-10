@@ -48,7 +48,7 @@
 		<div class="flex justify-center items-center">
 			<Avatar
 				link="https://blockstream.com"
-				image="/static/avatars/blockstream.jpg"
+				image="/avatars/blockstream.jpg"
 				name="Blockstream"
 			/>
 		</div>
@@ -58,7 +58,7 @@
 		<div class="flex justify-center items-center">
 			<Avatar
 				link="https://github.com/secondl1ght"
-				image="/static/avatars/secondl1ght.png"
+				image="/avatars/secondl1ght.png"
 				name="secondl1ght"
 			/>
 		</div>
@@ -76,22 +76,22 @@
 	<div>
 		<h2 class="text-3xl text-center">Community Integrations</h2>
 		<div class="flex flex-wrap justify-center items-center">
-			<Avatar link="https://getalby.com" image="/static/avatars/alby.jpg" name="Alby" />
+			<Avatar link="https://getalby.com" image="/avatars/alby.jpg" name="Alby" />
 
-			<Avatar link="https://bleskomat.com" image="/static/avatars/bleskomat.jpg" name="Bleskomat" />
+			<Avatar link="https://bleskomat.com" image="/avatars/bleskomat.jpg" name="Bleskomat" />
 			<Avatar
 				link="https://github.com/coinos/coinoslib"
-				image="/static/avatars/coinoslib.jpeg"
+				image="/avatars/coinoslib.jpeg"
 				name="coinoslib"
 			/>
 			<Avatar
 				link="https://github.com/BTCTranslator/coinosTelegramBot"
-				image="/static/avatars/telegrambot.png"
+				image="/avatars/telegrambot.png"
 				name="coinosTelegramBot"
 			/>
 			<Avatar
 				link="https://tokenocean.io"
-				image="/static/avatars/tokenocean.jpg"
+				image="/avatars/tokenocean.jpg"
 				name="Token Ocean"
 			/>
 		</div>
@@ -99,7 +99,7 @@
 	<div>
 		<h2 class="text-3xl text-center">Community Alliances</h2>
 		<div class="flex justify-center items-center">
-			<Avatar link="https://liquid.net" image="/static/avatars/liquid.jpg" name="Liquid Network" />
+			<Avatar link="https://liquid.net" image="/avatars/liquid.jpg" name="Liquid Network" />
 		</div>
 	</div>
 	<div class="w-full xl:w-1/2 mx-auto">
@@ -107,45 +107,45 @@
 		<div class="flex flex-wrap justify-center items-center">
 			<Avatar
 				link="https://github.com/MySolSo"
-				image="/static/avatars/MySolSo.png"
+				image="/avatars/MySolSo.png"
 				name="MySolSo"
 			/>
-			<Avatar link="https://github.com/metoro" image="/static/avatars/metoro.jpeg" name="metoro" />
+			<Avatar link="https://github.com/metoro" image="/avatars/metoro.jpeg" name="metoro" />
 			<Avatar
 				link="https://github.com/ran-guin"
-				image="/static/avatars/ran-guin.jpeg"
+				image="/avatars/ran-guin.jpeg"
 				name="ran-guin"
 			/>
 			<Avatar
 				link="https://github.com/TsuiAnthonYVR"
-				image="/static/avatars/TsuiAnthonYVR.jpeg"
+				image="/avatars/TsuiAnthonYVR.jpeg"
 				name="TsuiAnthonYVR"
 			/>
 			<Avatar
 				link="https://github.com/alexmillar"
-				image="/static/avatars/alexmillar.jpeg"
+				image="/avatars/alexmillar.jpeg"
 				name="alexmillar"
 			/>
 
 			<Avatar
 				link="https://github.com/kmalakoff"
-				image="/static/avatars/kmalakoff.jpeg"
+				image="/avatars/kmalakoff.jpeg"
 				name="kmalakoff"
 			/>
 			<Avatar
 				link="https://github.com/infertux"
-				image="/static/avatars/infertux.jpeg"
+				image="/avatars/infertux.jpeg"
 				name="infertux"
 			/>
-			<Avatar link="https://github.com/rikur" image="/static/avatars/rikur.png" name="rikur" />
+			<Avatar link="https://github.com/rikur" image="/avatars/rikur.png" name="rikur" />
 			<Avatar
 				link="https://github.com/drschwabe"
-				image="/static/avatars/drschwabe.png"
+				image="/avatars/drschwabe.png"
 				name="drschwabe"
 			/>
 			<Avatar
 				link="https://github.com/improvethings"
-				image="/static/avatars/improvethings.jpeg"
+				image="/avatars/improvethings.jpeg"
 				name="improvethings"
 			/>
 		</div>
@@ -155,17 +155,17 @@
 		<div class="flex flex-wrap justify-center items-center">
 			<Avatar
 				link="https://github.com/secondl1ght"
-				image="/static/avatars/secondl1ght.png"
+				image="/avatars/secondl1ght.png"
 				name="secondl1ght"
 			/>
 			<Avatar
 				link="https://github.com/mabdullahabid"
-				image="/static/avatars/mabdullahabid.jpeg"
+				image="/avatars/mabdullahabid.jpeg"
 				name="mabdullahabid"
 			/>
 			<Avatar
 				link="https://github.com/ahopk127"
-				image="/static/avatars/ahopk127.png"
+				image="/avatars/ahopk127.png"
 				name="ahopk127"
 			/>
 		</div>
@@ -175,7 +175,7 @@
 		<div class="flex justify-center items-center">
 			<Avatar
 				link="https://github.com/asoltys"
-				image="/static/avatars/asoltys.jpeg"
+				image="/avatars/asoltys.jpeg"
 				name="asoltys"
 			/>
 		</div>
